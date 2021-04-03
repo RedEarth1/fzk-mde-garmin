@@ -725,6 +725,11 @@ junction = roundabout & highway = residential  {set fzkrouting=yes} [0x0c road_c
 keinrouting = yes & fzkrouting != yes & name = * { set fzkrouting=yes } [0x12 road_class=0 road_speed=0 resolution 24 continue with_actions]
 
 # --------------------------------------------
+# Short Driveways
+# --------------------------------------------
+highway = service & service = driveway & length() < 50 & access != * [0x12 road_class=0 road_speed=0 resolution 24]
+
+# --------------------------------------------
 # Treppen/Stufen
 # --------------------------------------------
 # 0x13 = Bitmap 2 (transparent, nur fuer Routing, NoLabel)
