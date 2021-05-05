@@ -49,6 +49,7 @@
 #
 # Standard types - points (laut cGPSmapper):
 # ------------------------------------------
+#                                                                    GEOGRAPHIC MANMADE FEATURES (0x00 base only)
 # 0x0100-0x0500   City name(Point, fat, big)            0x4000-0x403F   Golf
 # 0x0600-0x0A00   City name(Point, big)                 0x4100-0x413F   Fish
 # 0x0B00          City name (Point, small)              0x4200-0x423F   Wreck
@@ -67,11 +68,14 @@
 # 0x2500-0x253F   Exit(Tollbooth Booth)                 0x4F00-0x4F3F   Shower
 # 0x2600-0x263F   Exit(Information)                     0x5000-0x503F   Drinking Water
 # 0x2700-0x273F   Exit                                  0x5100-0x513F   Telephone
+#                                                                    GEOGRAPHIC LAND/WATER FEATURES (0x00 base only except daymarks)
 # 0x2800-0x283F   Region name (no Point, small)         0x5200-0x523F   Scenic Area
+#       FOOD DRINK
 # 0x2A00          Dining (Other)                        0x5300-0x533F   Skiing
 # 0x2A01          Dining (American)                     0x5400-0x543F   Swimming
 # 0x2A02          Dining (Asian)                        0x5500-0x553F   Dam
 # 0x2A03          Dining (Barbecue)                     0x5700-0x573F   Danger Area
+#                                                       0x56            Controlled Area
 # 0x2A04          Dining (Chinese)                      0x5800-0x583F   restricted Area
 # 0x2A05          Dining (Deli/Bakery)                  0x5900          Generic Airport
 # 0x2A06          Dining (International)                0x5901          Large Airport
@@ -79,18 +83,27 @@
 # 0x2A08          Dining (Italian)                      0x5903          Small Airport
 # 0x2A09          Dining (Mexican)                      0x5904          Heliport
 # 0x2A0A          Dining (Pizza)                        0x5905-0x593F   Airport
-# 0x2A0B          Dining (Sea Food)                     0x5D00-0x5D3F   Daymark, Green Square
-# 0x2A0C          Dining (Steak/Grill)                  0x5E00-0x5E3F   Daymark, Red Triangle
-# 0x2A0D          Dining (Bagel/Donut)                  0x6200          Depth with point in feet one decimal place
-# 0x2A0E          Dining (Cafe/Diner)                   0x6300          Height without point in feet no decimal place
+
+# 0x2A0B          Dining (Sea Food)                     0x5D00-0x5D3F   Daymark, Green Square (WATER)
+# 0x2A0C          Dining (Steak/Grill)                  0x5E00-0x5E3F   Daymark, Red Triangle (WATER)
+# 0x2A0D          Dining (Bagel/Donut)                  0x6200          Depth with point in feet one decimal place (not searchable as POI)
+# 0x2A0E          Dining (Cafe/Diner)                   0x6300          Height without point in feet no decimal place (not searchable as POI)
+#                                                             MANMADE FEATURES, USES BUILTIN ICONS?
 # 0x2A0F          Dining (French)                       0x6400          Manmade Feature
 # 0x2A10          Dining (German)                       0x6401          Bridge
 # 0x2A11          Dining (British Isles)                0x6402          Building
+# 0x2A12          Speciality Food Products
+#       LODGING
 # 0x2B00          Hotel (Other)                         0x6403          Cemetery
 # 0x2B01          Hotel/Motel                           0x6404          Church
 # 0x2B02          Bed & Breakfast inn                   0x6405          Civil
-# 0x2B03          Camping/RV-Park                       0x6406          Crossing
+# 0x2B03          (NOT CAMPGROUND/RV PARK)              0x6406          Crossing
 # 0x2B04          Resort                                0x6407          Dam (Damm, Staudamm)
+# 0x2B05          Campground
+# 0x2b06          (NOT PARK and also NOT SHELTER)
+# 0x2B07          Sporting and Instructional Camp
+#       ATTRACTION
+# 0x2C00          Attraction (Other)
 # 0x2C01          Amusement Park                        0x6408          Hospital
 # 0x2C02          Museum/History                        0x6409          Levee (Damm, Deich)
 # 0x2C03          Libraries                             0x640A          Locale (Örtlichkeit)
@@ -98,15 +111,25 @@
 # 0x2C05          School                                0x640C          Mine
 # 0x2C06          Park                                  0x640D          Oil Field
 # 0x2C07          Zoo                                   0x640E          Park
-# 0x2C08          Sportpark, Stadium, (point)           0x640F          Post
+# 0x2C08          Sportpark, Stadium, (point)           0x640F          Postbox
 # 0x2C09          Fair, Conference (point)              0x6410          School
 # 0x2C0A          Vine restaurant (point)               0x6411          Tower
-# 0x2C0B          Place of Worship                      0x6412          Trail
+# 0x2C0B          Place of Worship (general)            0x6412          Trail
 # 0x2C0C          Hot Spring                            0x6413          Tunnel
+# 0x2C0D          Mosque
+# 0x2C0E          Synagogue (should be church)
+# 0x2C0F          Place of Worship (temple)
+# 0x2C10          Place of Worship (should be synagogue)
+# 0x2C18          Sports Complex (Soccer)
+# 0x2C19          Sports Complex (Rugby)
+# 0x2C1A          Sports Complex (Australian Rules)
+#       ENTERTAINMENT
+# 0x2D00          Entertainment (Other)
 # 0x2D01          Theater                               0x6414          Drink water
 # 0x2D02          Bar                                   0x6415          Ghost Town
 # 0x2D03          Cinema                                0x6416          Subdivision (Trabantenstadt)
 # 0x2D04          Casino                                0x6500          Water Feature
+#       RECREATION
 # 0x2D05          Golf                                  0x6501          Arroyo (Arroyo, saisonal trockene Schlucht)
 # 0x2D06          Skiing Center                         0x6502          Sand Bar (Sandbank)
 # 0x2D07          Bowling                               0x6503          Bay
@@ -114,6 +137,8 @@
 # 0x2D09          Swimming                              0x6505          Canal
 # 0x2D0A          Sports (point)                        0x6506          Channel
 # 0x2D0B          Sailing Airport                       0x6507          Cove (Bucht)
+#       SHOPPING
+# 0x2E00          Shopping (other)
 # 0x2E01          Department Store                      0x6508          Falls (großer Wasserfall)
 # 0x2E02          Grocery                               0x6509          Geyser
 # 0x2E03          General Merchandiser                  0x650A          Glacier
@@ -125,12 +150,18 @@
 # 0x2E09          Home Furnishing                       0x6510          Sea
 # 0x2E0a          Special Retail                        0x6511          Spring
 # 0x2E0b          Computer/Software                     0x6512          Stream
+# 0x2E0C          Butcher (under special retail)
+# 0x2E0E          Convenience (duplicate!!)
+#       AUTO SERVICES
+#       FUEL SERVICES
+#       TRAINSPORTATION
+#       OTHER-SERVICES
 # 0x2F00          generic service                       0x6513          Swamp
 # 0x2F01          Fuel/Gas                              0x6600          Land Feature
 # 0x2F02          Car Rental                            0x6601          Arch (Bogen)
 # 0x2F03          Car Repair                            0x6602          Area
 # 0x2F04          Airport                               0x6603          Basin
-# 0x2F05          Post Office                           0x6600          Beach
+# 0x2F05          Post Office                           0x6604          Beach
 # 0x2F06          Bank                                  0x6605          Bench
 # 0x2F07          Car Dealer (point)                    0x6606          Cape (Kap)
 # 0x2F08          Bus Station                           0x6607          Cliff
@@ -148,14 +179,19 @@
 # 0x2F14          Social Service                        0x6613          Ridge (Bergzug, Kamm, Grat)
 # 0x2F15          Utility                               0x6614          Rock
 # 0x2F16          Truck Stop                            0x6615          Slope (Abhang)
-# 0x3000          generic emergency/government          0x6616          Summit
+#       COMMUNITY
+# 0x3000          (NO GENERIC EMERGENCY/GOVT)           0x6616          Summit
 # 0x3001          Police Station                        0x6617          Valley
 # 0x3002          Hospital                              0x6618          Woods
 # 0x3003          Public Office
 # 0x3004          Justice
-# 0x3005          Concert hall (point)
+# 0x3005          Concert hall (Community centre)
 # 0x3006          Border Station (point)
-#
+# 0x3007          Government Office
+# 0x3008          Fire Station
+
+
+
 # Standard types - points (laut Thorsten Kukuk, Stand: 01/2012):
 # --------------------------------------------------------------
 # Attraktionen:
@@ -779,7 +815,20 @@ amenity = restaurant & cuisine = barbecue & name = * {set name = "${name} (${cui
 amenity = restaurant & cuisine = chinese & name = * {set name = "${name} ($__CHINESE__)"} [0x2a04 resolution 24]
 
 # International.
+# Moved specific nationalities from speciality to international
 amenity = restaurant & cuisine = international & name = * {set name = "${name} (${cuisine}, $__RESTAURANT__)"} [0x2a06 resolution 24]
+amenity = restaurant & cuisine = greek       & name = * {set name = "${name} ($__GREEK__)"} [0x2a06 resolution 24]
+amenity = restaurant & cuisine = turkish     & name = * {set name = "${name} ($__TURKISH__)"} [0x2a06 resolution 24]
+amenity = restaurant & cuisine = indian      & name = * {set name = "${name} ($__INDIAN__)"} [0x2a06 resolution 24]
+amenity = restaurant & cuisine = arab        & name = * {set name = "${name} ($__ARAB__)"} [0x2a06 resolution 24]
+amenity = restaurant & cuisine = portuguese  & name = * {set name = "${name} ($__PORTUGUESE__)"} [0x2a06 resolution 24]
+amenity = restaurant & cuisine = austrian    & name = * {set name = "${name} ($__AUSTRIAN__)"} [0x2a06 resolution 24]
+amenity = restaurant & cuisine = balkan      & name = * {set name = "${name} (${cuisine}, $__RESTAURANT__)"} [0x2a06 resolution 24]
+amenity = restaurant & cuisine = persian     & name = * {set name = "${name} ($__PERSIAN__)"} [0x2a06 resolution 24]
+amenity = restaurant & cuisine = lebanese    & name = * {set name = "${name} ($__LEBANESE__)"} [0x2a06 resolution 24]
+amenity = restaurant & cuisine = african     & name = * {set name = "${name} ($__AFRICAN__)"} [0x2a06 resolution 24]
+amenity = restaurant & cuisine = russian     & name = * {set name = "${name} ($__RUSSIAN__)"} [0x2a06 resolution 24]
+amenity = restaurant & cuisine = yugoslavian & name = * {set name = "${name} ($__YUGOSLAVIAN__)"} [0x2a06 resolution 24]
 
 # Fastfood.
 amenity = restaurant & cuisine = sandwich       & name = * {set name = "${name} (${cuisine}, $__RESTAURANT__)"} [0x2a07 resolution 24]
@@ -835,25 +884,14 @@ amenity = restaurant & cuisine = british & name = * {set name = "${name} ($__BRI
 
 # Spezialitäten.
 amenity = restaurant & cuisine = speciality  & name = * {set name = "${name} ($__SPECIALITY__)"} [0x2a12 resolution 24]
-amenity = restaurant & cuisine = greek       & name = * {set name = "${name} ($__GREEK__)"} [0x2a12 resolution 24]
-amenity = restaurant & cuisine = turkish     & name = * {set name = "${name} ($__TURKISH__)"} [0x2a12 resolution 24]
-amenity = restaurant & cuisine = indian      & name = * {set name = "${name} ($__INDIAN__)"} [0x2a12 resolution 24]
-amenity = restaurant & cuisine = arab        & name = * {set name = "${name} ($__ARAB__)"} [0x2a12 resolution 24]
-amenity = restaurant & cuisine = portuguese  & name = * {set name = "${name} ($__PORTUGUESE__)"} [0x2a12 resolution 24]
 amenity = restaurant & cuisine = vegetarian  & name = * {set name = "${name} ($__VEGETARIAN__)"} [0x2a12 resolution 24]
-amenity = restaurant & cuisine = austrian    & name = * {set name = "${name} ($__AUSTRIAN__)"} [0x2a12 resolution 24]
-amenity = restaurant & cuisine = balkan      & name = * {set name = "${name} (${cuisine}, $__RESTAURANT__)"} [0x2a12 resolution 24]
-amenity = restaurant & cuisine = persian     & name = * {set name = "${name} ($__PERSIAN__)"} [0x2a12 resolution 24]
-amenity = restaurant & cuisine = lebanese    & name = * {set name = "${name} ($__LEBANESE__)"} [0x2a12 resolution 24]
-amenity = restaurant & cuisine = african     & name = * {set name = "${name} ($__AFRICAN__)"} [0x2a12 resolution 24]
-amenity = restaurant & cuisine = russian     & name = * {set name = "${name} ($__RUSSIAN__)"} [0x2a12 resolution 24]
-amenity = restaurant & cuisine = yugoslavian & name = * {set name = "${name} ($__YUGOSLAVIAN__)"} [0x2a12 resolution 24]
 
 # Eiscafé, Eisdiele.
 amenity = restaurant & cuisine = ice_cream & name = * {set name = "${name} ($__ICECREAMRESTAURANT__)"} [0x2a0e resolution 24]
 
 # Alle verbleibenden Restaurants mit bekannter Küche.
-amenity = restaurant & cuisine = * & name = * {set name = "${name} (${cuisine}, $__RESTAURANT__)"} [0x2a13 resolution 24]
+# Specific other cuisine is speciality not other
+amenity = restaurant & cuisine = * & name = * {set name = "${name} (${cuisine}, $__RESTAURANT__)"} [0x2a12 resolution 24]
 
 # Alle verbleidenden Restaurants.
 amenity = restaurant & name = * {set name = "${name} ($__RESTAURANT__)"} [0x2a00 resolution 24]
@@ -1005,7 +1043,7 @@ amenity = public_building & name = * {name "${name} ($__PUBLICBUILDING__)"} [0x3
 building = public & name = * {name "${name} ($__PUBLICBUILDING__)"} [0x3007 resolution 24]
 
 # Ein Unterstand ist ein überdachter offener Platz als Schutz vor der Witterung. [point, closedway]
-amenity = shelter {name "${name} ($__SHELTER__)" | "$__SHELTER__"} [0x2b06 resolution 23]
+amenity = shelter {name "${name} ($__SHELTER__)" | "$__SHELTER__"} [0x4807 resolution 23]
 
 # Öffentliche Toilette / public toilet (z.T. mit Gebühr). [point, closedway]
 amenity = toilets [0x2f0c resolution 24]
@@ -1154,7 +1192,7 @@ shop = cosmetics & name = * {name "${name} ($__COSMETICS__)"} [0x2f10 resolution
 shop = bicycle & name = * {name "${name} ($__BICYCLESHOP__)"} [0x2f13 resolution 24]
 
 # Metzgerei, Fleischerei, Schlachterei. [point, closedway]
-shop = butcher & name = * {name "${name} ($__BUTCHER__)"} [0x2e02 resolution 24]
+shop = butcher & name = * {name "${name} ($__BUTCHER__)"} [0x2e0c resolution 24]
 
 # Autohaus. [point, closedway]
 shop = car & name = * {name "${name} ($__CARSHOP__)"} [0x2f07 resolution 24]
