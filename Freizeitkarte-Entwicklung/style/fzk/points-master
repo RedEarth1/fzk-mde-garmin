@@ -715,7 +715,7 @@ place = village [0x0c00 resolution 21]
 # ------------------------------------------
 
 # Strommast: Mast für Hochspannungsüberlandleitungen. [point]
-power = tower {name "${name} ($__POWERTOWER__)" | "$__POWERTOWER__"} [0x6417 resolution 24]
+# power = tower {name "${name} ($__POWERTOWER__)" | "$__POWERTOWER__"} [0x6417 resolution 24]
 
 # Strommast für Nieder- und Mittelspannungsleitungen, oft aus Holz oder Beton. [point]
 # power = pole (wird derzeit nicht unterstützt)
@@ -1172,8 +1172,8 @@ railway = tram_stop                            {name "${name} ($__TRAMSTOP__)" |
 # ------------------------------------------------------------
 
 # Korrekturen:
-shop = carpenter            {set shop=carpet; delete carpenter}
-shop = carpentry            {set shop=carpet; delete carpentry}
+# shop = carpenter            {set shop=carpet; delete carpenter}
+# shop = carpentry            {set shop=carpet; delete carpentry}
 shop = carpeting            {set shop=carpet; delete carpeting}
 shop = curtains             {set shop=curtain; delete curtains}
 shop = drugstore            {set shop=chemist; delete drugstore}
