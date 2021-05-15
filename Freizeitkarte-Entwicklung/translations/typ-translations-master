@@ -5534,19 +5534,19 @@ String=0x15,Przystań dla jachtów
 String=0x19,Пристань
 [end]
 
-; Parking (restricted) <=> Parken (eingeschränkt)
+; Parking <=> Parken
 [_point]
 Type=0x02f
 SubType=0x0b
-String=0x00,Parking (restricted)
-String=0x01,Parking (accès limité)
-String=0x02,Parken (eingeschränkt)
-String=0x03,Parkeerplaats (afgesloten)
-String=0x04,Parking (restricted)
-String=0x05,Parcheggio (accesso limitato)
-String=0x10,Estacionamento (restrito)
-String=0x15,Parking (ograniczony)
-String=0x19,Паркинг/стоянка (ограниченный доступ)
+String=0x00,Parking
+String=0x01,Parking
+String=0x02,Parken
+String=0x03,Parkeerplaats
+String=0x04,Parking
+String=0x05,Parcheggio
+String=0x10,Estacionamento
+String=0x15,Parking
+String=0x19,Паркинг/стоянка
 [end]
 
 [_point]
@@ -5893,19 +5893,19 @@ String=0x15,Miejscie piknikowe
 String=0x19,Место для пикника
 [end]
 
-; Parking <=> Parken
+; Parking (restricted) <=> Parken (eingeschränkt)
 [_point]
 Type=0x04d
 SubType=0x00
-String=0x00,Parking
-String=0x01,Parking
-String=0x02,Parken
-String=0x03,Parkeerplaats
-String=0x04,Parking
-String=0x05,Parcheggio
-String=0x10,Estacionamento
-String=0x15,Parking
-String=0x19,Паркинг/стоянка
+String=0x00,Parking (restricted)
+String=0x01,Parking (accès limité)
+String=0x02,Parken (eingeschränkt)
+String=0x03,Parkeerplaats (afgesloten)
+String=0x04,Parking (restricted)
+String=0x05,Parcheggio (accesso limitato)
+String=0x10,Estacionamento (restrito)
+String=0x15,Parking (ograniczony)
+String=0x19,Паркинг/стоянка (ограниченный доступ)
 [end]
 
 ; Viewpoint <=> Aussichtspunkt

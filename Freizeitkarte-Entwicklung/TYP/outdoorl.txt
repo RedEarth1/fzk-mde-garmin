@@ -8062,15 +8062,15 @@ DayXpm="3 3 2 1"   Colormode=16
 Type=0x02f
 SubType=0x0b
 ;GRMN_TYPE: Business - Services/PARKING/Parking/Non NT
-String1=0x00,Parken (eingeschränkt)
-String2=0x01,Parken (eingeschränkt)
-String3=0x02,Parken (eingeschränkt)
-String4=0x04,Parking (restricted)
+String1=0x00,Parken
+String2=0x01,Parken
+String3=0x02,Parken
+String4=0x04,Parking
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
 DayXpm="6 9 2 1"   Colormode=16
-"!	c #FF656A"
+"!	c #0080C0"
 "  	c none"
 "!!!!! "
 "!!!!!!"
@@ -8676,15 +8676,15 @@ DayXpm="3 3 2 1"   Colormode=16
 Type=0x04d
 SubType=0x00
 ;GRMN_TYPE: //
-String1=0x00,Parken
-String2=0x01,Parken
-String3=0x02,Parken
-String4=0x04,Parking
+String1=0x00,Parken (eingeschränkt)
+String2=0x01,Parken (eingeschränkt)
+String3=0x02,Parken (eingeschränkt)
+String4=0x04,Parking (restricted)
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
 DayXpm="6 9 2 1"   Colormode=16
-"!	c #0080C0"
+"!	c #FF656A"
 "  	c none"
 "!!!!! "
 "!!!!!!"
