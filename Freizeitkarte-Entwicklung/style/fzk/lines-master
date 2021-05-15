@@ -727,7 +727,7 @@ keinrouting = yes & fzkrouting != yes & name = * { set fzkrouting=yes } [0x12 ro
 # --------------------------------------------
 # Short Driveways
 # --------------------------------------------
-highway = service & service = driveway & length() < 50 & access != * & lanes != * & maxspeed != * and name != * [0x12 road_class=0 road_speed=0 resolution 24]
+highway = service & service = driveway & length() < 50 & access != * & lanes != * & maxspeed != * & name != * [0x12 road_class=0 road_speed=0 resolution 24]
 
 # --------------------------------------------
 # Treppen/Stufen
