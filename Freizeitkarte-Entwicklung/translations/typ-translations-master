@@ -5444,6 +5444,21 @@ String=0x15,Warsztat samochodowy
 String=0x19,Автосервис/СТО
 [end]
 
+; Airport <=> Flughafen
+[_point]
+Type=0x02f
+SubType=0x04
+String=0x00,Airport
+String=0x01,Aéroport
+String=0x02,Flughafen
+String=0x03,Luchthaven
+String=0x04,Airport
+String=0x05,Aeroporto
+String=0x10,Aeroporto
+String=0x15,Port lotniczy
+String=0x19,Аэропорт
+[end]
+
 ; Post Office <=> Postamt
 [_point]
 Type=0x02f

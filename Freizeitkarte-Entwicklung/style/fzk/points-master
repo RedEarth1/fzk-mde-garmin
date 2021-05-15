@@ -749,7 +749,7 @@ power = generator & name = * {name "${name} ($__POWERGENERATOR__)"} [0x6600 reso
 # ------------------------------------------------------------
 
 # Flughafen. [point, closedway]
-aeroway = aerodrome | aeroway = airport {name "${name} ($__AIRPORT__)" | "$__AIRPORT__"} [0x5905 resolution 24]
+aeroway = aerodrome | aeroway = airport {name "${name} ($__AIRPORT__)" | "$__AIRPORT__"} [0x2F04 resolution 24]
 
 # Hubschrauberlandeplatz. [point, closedway]
 aeroway = helipad {name "${name} ($__HELIPAD__)" | "$__HELIPAD__"} [0x5904 resolution 24]
