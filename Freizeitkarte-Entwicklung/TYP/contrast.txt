@@ -1,7 +1,4 @@
-﻿; contrast.TYP
-; Longueur: 21394 octets
-; Fichier TYP compilé     03.02.2013     22:22:54
-; Décompilé le 18.03.2013 à 19:33:58
+
 
 [_id]
 ProductCode=1
@@ -98,6 +95,7 @@ Type=0x056,9
 
 [_polygon]
 Type=0x02
+;GRMN_TYPE: Urban Areas/SMALL_CITY/Small urban area, less than 200 000 inhabitants/Non NT
 String1=0x02,Wohngebiet
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -109,6 +107,7 @@ Xpm="0 0 1 0"
 
 [_polygon]
 Type=0x04
+;GRMN_TYPE: Large Manmade Areas/MILITARY_BASE/Military base area/Non NT
 String1=0x02,Militär
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -154,6 +153,7 @@ Xpm="32 32 2 1"
 
 [_polygon]
 Type=0x05
+;GRMN_TYPE: Large Manmade Areas/PARKING_LOT/Parking lot area/Non NT
 String1=0x02,Parkplatz
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -165,6 +165,7 @@ Xpm="0 0 1 0"
 
 [_polygon]
 Type=0x08
+;GRMN_TYPE: Large Manmade Areas/SHOPPING_AREA/Shopping area/Non NT
 String1=0x02,Handel
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -208,19 +209,9 @@ Xpm="32 32 2 1"
 [end]
 
 
-;[_polygon]
-;Type=0x09
-;String1=0x02,Yachthafen
-;ExtendedLabels=Y
-;FontStyle=NoLabel (invisible)
-;CustomColor=No
-;Xpm="0 0 1 0"
-;"1 c #7BCAFF"
-;[end]
-
-
 [_polygon]
 Type=0x0a
+;GRMN_TYPE: Large Manmade Areas/COLLEGE/College or university area/Non NT
 String1=0x02,Schule
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -266,6 +257,7 @@ Xpm="32 32 2 1"
 
 [_polygon]
 Type=0x0b
+;GRMN_TYPE: Large Manmade Areas/HOSPITAL/Hospital area/Non NT
 String1=0x02,Krankenhaus
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -311,6 +303,7 @@ Xpm="32 32 2 1"
 
 [_polygon]
 Type=0x0c
+;GRMN_TYPE: Large Manmade Areas/INDUSTRIAL_COMPLEX/Industrial complex area/Non NT
 String1=0x02,Industrie
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -356,6 +349,7 @@ Xpm="32 32 2 1"
 
 [_polygon]
 Type=0x0d
+;GRMN_TYPE: Large Manmade Areas/RESERVATION/Reservation/Non NT
 String1=0x02,Naturreservat
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -401,6 +395,7 @@ Xpm="32 32 2 1"
 
 [_polygon]
 Type=0x0f
+;GRMN_TYPE: //
 String1=0x02,Spielplatz
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -446,6 +441,7 @@ Xpm="32 32 2 1"
 
 [_polygon]
 Type=0x10
+;GRMN_TYPE: //
 String1=0x02,Camping
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -491,6 +487,7 @@ Xpm="32 32 2 1"
 
 [_polygon]
 Type=0x11
+;GRMN_TYPE: //
 String1=0x02,Attraktion
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -536,6 +533,7 @@ Xpm="32 32 2 1"
 
 [_polygon]
 Type=0x12
+;GRMN_TYPE: //
 String1=0x02,Rohstoffabbau
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -581,6 +579,7 @@ Xpm="32 32 2 1"
 
 [_polygon]
 Type=0x13
+;GRMN_TYPE: Large Manmade Areas/GENERIC_MANMADE/Other or generic manmade area, such as a building/Non NT
 String1=0x02,Gebäude
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -592,6 +591,7 @@ Xpm="0 0 1 0"
 
 [_polygon]
 Type=0x14
+;GRMN_TYPE: Park Areas/NATIONAL_PARK_MAJOR/Large or major national park/Non NT
 String1=0x02,Camping
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -637,6 +637,7 @@ Xpm="32 32 2 1"
 
 [_polygon]
 Type=0x15
+;GRMN_TYPE: Park Areas/NATIONAL_PARK/National park/Non NT
 String1=0x02,Laubwald
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -682,6 +683,7 @@ Xpm="32 32 2 1"
 
 [_polygon]
 Type=0x16
+;GRMN_TYPE: Park Areas/NATIONAL_PARK_OTHER/Small or misc sized national park/Non NT
 String1=0x02,Fels
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -693,6 +695,7 @@ Xpm="0 0 1 0"
 
 [_polygon]
 Type=0x17
+;GRMN_TYPE: Park Areas/URBAN_PARK/Small urban park, typically only a few square blocks in size/Non NT
 String1=0x02,Wiese
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -704,6 +707,7 @@ Xpm="0 0 1 0"
 
 [_polygon]
 Type=0x18
+;GRMN_TYPE: Large Manmade Areas/GOLF_COURSE/Golf course area/Non NT
 String1=0x02,Golfplatz
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -715,6 +719,7 @@ Xpm="0 0 1 0"
 
 [_polygon]
 Type=0x19
+;GRMN_TYPE: Large Manmade Areas/SPORTS_COMPLEX/Sports arena or stadium/Non NT
 String1=0x02,Sportanlage
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -726,6 +731,7 @@ Xpm="0 0 1 0"
 
 [_polygon]
 Type=0x1a
+;GRMN_TYPE: Large Manmade Areas/CEMETARY/Cemetary/Non NT
 String1=0x02,Friedhof
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -771,6 +777,7 @@ Xpm="32 32 2 1"
 
 [_polygon]
 Type=0x1b
+;GRMN_TYPE: //
 String1=0x02,Weinberg
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -816,6 +823,7 @@ Xpm="32 32 2 1"
 
 [_polygon]
 Type=0x1c
+;GRMN_TYPE: //
 String1=0x02,Kasernen
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -827,6 +835,7 @@ Xpm="0 0 1 0"
 
 [_polygon]
 Type=0x1e
+;GRMN_TYPE: Park Areas/STATE_PARK_MAJOR/Large or major state park/Non NT
 String1=0x02,Park
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -838,6 +847,7 @@ Xpm="0 0 1 0"
 
 [_polygon]
 Type=0x21
+;GRMN_TYPE: //
 String1=0x02,Gefahrenzone
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -883,6 +893,7 @@ Xpm="32 32 2 1"
 
 [_polygon]
 Type=0x22
+;GRMN_TYPE: //
 String1=0x02,Zoo
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -928,6 +939,7 @@ Xpm="32 32 2 1"
 
 [_polygon]
 Type=0x23
+;GRMN_TYPE: //
 String1=0x02,Schrebergärten
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -973,6 +985,7 @@ Xpm="32 32 2 1"
 
 [_polygon]
 Type=0x24
+;GRMN_TYPE: //
 String1=0x02,Kulturland
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -984,6 +997,7 @@ Xpm="0 0 1 0"
 
 [_polygon]
 Type=0x25
+;GRMN_TYPE: //
 String1=0x02,Kraftwerk
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -1029,6 +1043,7 @@ Xpm="32 32 2 1"
 
 [_polygon]
 Type=0x26
+;GRMN_TYPE: //
 String1=0x02,Verwaltung
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -1074,6 +1089,7 @@ Xpm="32 32 2 1"
 
 [_polygon]
 Type=0x27
+;GRMN_TYPE: //
 String1=0x02,Baugebiet / Brache
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -1119,6 +1135,7 @@ Xpm="32 32 2 1"
 
 [_polygon]
 Type=0x2a
+;GRMN_TYPE: //
 String1=0x02,Deponie
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -1164,6 +1181,7 @@ Xpm="32 32 2 1"
 
 [_polygon]
 Type=0x2b
+;GRMN_TYPE: //
 String1=0x02,Heide
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -1209,6 +1227,7 @@ Xpm="32 32 2 1"
 
 [_polygon]
 Type=0x2c
+;GRMN_TYPE: //
 String1=0x02,Vorfeld
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -1220,6 +1239,7 @@ Xpm="0 0 1 0"
 
 [_polygon]
 Type=0x2d
+;GRMN_TYPE: //
 String1=0x02,Flugplatz
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -1231,6 +1251,7 @@ Xpm="0 0 1 0"
 
 [_polygon]
 Type=0x2e
+;GRMN_TYPE: //
 String1=0x02,Strand
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -1276,6 +1297,7 @@ Xpm="32 32 2 1"
 
 [_polygon]
 Type=0x2f
+;GRMN_TYPE: //
 String1=0x02,Schlick
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -1321,6 +1343,7 @@ Xpm="32 32 2 1"
 
 [_polygon]
 Type=0x30
+;GRMN_TYPE: //
 String1=0x02,Mischgebiet
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -1332,6 +1355,7 @@ Xpm="0 0 1 0"
 
 [_polygon]
 Type=0x31
+;GRMN_TYPE: //
 String1=0x02,Platz
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -1343,6 +1367,7 @@ Xpm="0 0 1 0"
 
 [_polygon]
 Type=0x32
+;GRMN_TYPE: Water Areas/SEA/Sea/Non NT
 String1=0x02,Meer
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -1354,6 +1379,7 @@ Xpm="0 0 1 0"
 
 [_polygon]
 Type=0x33
+;GRMN_TYPE: //
 String1=0x02,Fußgängerzone
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -1399,6 +1425,7 @@ Xpm="32 32 2 1"
 
 [_polygon]
 Type=0x35
+;GRMN_TYPE: //
 String1=0x02,Supermarkt
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -1410,6 +1437,7 @@ Xpm="0 0 1 0"
 
 [_polygon]
 Type=0x36
+;GRMN_TYPE: //
 String1=0x02,Andachtsstätte
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -1421,6 +1449,7 @@ Xpm="0 0 1 0"
 
 [_polygon]
 Type=0x37
+;GRMN_TYPE: //
 String1=0x02,Spielfeld / Laufbahn
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -1432,6 +1461,7 @@ Xpm="0 0 1 0"
 
 [_polygon]
 Type=0x38
+;GRMN_TYPE: //
 String1=0x02,Terminal
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -1443,6 +1473,7 @@ Xpm="0 0 1 0"
 
 [_polygon]
 Type=0x39
+;GRMN_TYPE: //
 String1=0x02,Anlegestelle
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -1454,6 +1485,7 @@ Xpm="0 0 1 0"
 
 [_polygon]
 Type=0x3a
+;GRMN_TYPE: //
 String1=0x02,Land
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -1465,6 +1497,7 @@ Xpm="0 0 1 0"
 
 [_polygon]
 Type=0x3c
+;GRMN_TYPE: Water Areas/LAKE_100MI/Lake less than 250 sq mi but greater or equal to 100 sq mi in area/Non NT
 String1=0x02,Wasser
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -1476,6 +1509,7 @@ Xpm="0 0 1 0"
 
 [_polygon]
 Type=0x3d
+;GRMN_TYPE: Water Areas/LAKE_30MI, LARGE_LAKE/Large lake, typically between 30 and 500 sq mi in area/Non NT
 String1=0x02,Staudamm / -mauer
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -1487,6 +1521,7 @@ Xpm="0 0 1 0"
 
 [_polygon]
 Type=0x3e
+;GRMN_TYPE: Water Areas/LAKE_10MI/Lake less than 30 sq mi but greater or equal to 10 sq mi in area/Non NT
 String1=0x02,Bahnsteig
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -1498,6 +1533,7 @@ Xpm="0 0 1 0"
 
 [_polygon]
 Type=0x3f
+;GRMN_TYPE: Water Areas/LAKE, LAKE_5MI/Medium sized lake, typically between 5 and 30 sq mi in area/Non NT
 String1=0x02,Wasser
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -1509,6 +1545,7 @@ Xpm="0 0 1 0"
 
 [_polygon]
 Type=0x40
+;GRMN_TYPE: Water Areas/LAKE_1MI/Small lake, typically less than 5 sq mi but greater or equal to 1 sq mi in area/Non NT
 String1=0x02,Alm / Bergwiese
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -1554,6 +1591,7 @@ Xpm="32 32 2 1"
 
 [_polygon]
 Type=0x41
+;GRMN_TYPE: Water Areas/LAKE_LT_1MI, SMALL_LAKE/Small lake, typically less than 5 sq mi in area/Non NT
 String1=0x02,Spielfeld
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -1565,6 +1603,7 @@ Xpm="0 0 1 0"
 
 [_polygon]
 Type=0x42
+;GRMN_TYPE: Water Areas/LAKE_GT_1000MI, MAJOR_LAKE/Major regional lake, typically larger than 500 sq mi/Non NT
 String1=0x02,Stadion
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -1576,6 +1615,7 @@ Xpm="0 0 1 0"
 
 [_polygon]
 Type=0x43
+;GRMN_TYPE: Water Areas/LAKE_500MI/Lake less than 1000 sq mi but greater or equal to 500 sq mi  in area/Non NT
 String1=0x02,Geröll
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -1621,6 +1661,7 @@ Xpm="32 32 2 1"
 
 [_polygon]
 Type=0x44
+;GRMN_TYPE: Water Areas/LAKE_250MI/Lake less than 500 sq mi but greater or equal to 250 sq mi in area/Non NT
 String1=0x02,Raststätte
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -1632,6 +1673,7 @@ Xpm="0 0 1 0"
 
 [_polygon]
 Type=0x46
+;GRMN_TYPE: Water Areas/LARGE_RIVER/Major river, typically at least 700 ft in width/Non NT
 String1=0x02,Flussufer
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -1643,6 +1685,7 @@ Xpm="0 0 1 0"
 
 [_polygon]
 Type=0x47
+;GRMN_TYPE: Water Areas/RIVER_GT_700FT/Major river greater or equal to 700 ft in width/Non NT
 String1=0x02,Sand
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -1654,6 +1697,7 @@ Xpm="0 0 1 0"
 
 [_polygon]
 Type=0x49
+;GRMN_TYPE: Water Areas/RIVER_LT_100FT/Minor river less than 100 ft in width/Non NT
 String1=0x02,Gehöft
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -1665,6 +1709,7 @@ Xpm="0 0 1 0"
 
 [_polygon]
 Type=0x4b
+;GRMN_TYPE: Map Bounds/DATA_BOUNDS/Bounds of map after creation/Non NT
 String1=0x02,Hintergrund
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -1676,6 +1721,7 @@ Xpm="0 0 1 0"
 
 [_polygon]
 Type=0x4c
+;GRMN_TYPE: Water Areas/INTERMITTENT_LAKE/An intermittent or dry lake/Non NT
 String1=0x02,Dock
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -1721,6 +1767,7 @@ Xpm="32 32 2 1"
 
 [_polygon]
 Type=0x4d
+;GRMN_TYPE: Surface Cover Areas/GLACIER/Large area of compacted snow and ice/Non NT
 String1=0x02,Gletscher
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -1766,6 +1813,7 @@ Xpm="32 32 2 1"
 
 [_polygon]
 Type=0x4e
+;GRMN_TYPE: Surface Cover Areas/ORCHARD/Orchard or plantation area/Non NT
 String1=0x02,Plantage
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -1811,6 +1859,7 @@ Xpm="32 32 2 1"
 
 [_polygon]
 Type=0x4f
+;GRMN_TYPE: Surface Cover Areas/SCRUB/Scrub brush area/Non NT
 String1=0x02,Gebüsch
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -1856,6 +1905,7 @@ Xpm="32 32 2 1"
 
 [_polygon]
 Type=0x50
+;GRMN_TYPE: Surface Cover Areas/WOODS/Wooded or forested area/Non NT
 String1=0x02,Nadelwald
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -1901,6 +1951,7 @@ Xpm="32 32 2 1"
 
 [_polygon]
 Type=0x51
+;GRMN_TYPE: Surface Cover Areas/WETLAND/Wetland or swamp area/Non NT
 String1=0x02,Feuchtgebiet
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -1946,6 +1997,7 @@ Xpm="32 32 2 1"
 
 [_polygon]
 Type=0x52
+;GRMN_TYPE: Surface Cover Areas/TUNDRA/Area of nearly always freezing soil/Non NT
 String1=0x02,Mischwald
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -1991,6 +2043,7 @@ Xpm="32 32 2 1"
 
 [_polygon]
 Type=0x53
+;GRMN_TYPE: Surface Cover Areas/FLAT/Sand, tidal, mud, etc. flat area/Non NT
 String1=0x02,Schwarzes Loch
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -2036,6 +2089,7 @@ Xpm="32 32 2 1"
 
 [_polygon]
 Type=0x56
+;GRMN_TYPE: //
 String1=0x00,Watt
 String2=0x01,Watt
 String3=0x02,Watt
@@ -2087,6 +2141,7 @@ Xpm="32 32 2 1"
 
 [_line]
 Type=0x01
+;GRMN_TYPE: Roads/INTERSTATE, MAJOR_HWY/Primary, divided, limited-access highway, akin to an interstate in the US/Non NT, NT
 UseOrientation=Y
 Xpm="32 2 2  1"
 "! c #809BC0"
@@ -2101,6 +2156,7 @@ ExtendedLabels=N
 
 [_line]
 Type=0x02
+;GRMN_TYPE: Roads/PRINCIPAL_HWY/Principal highway, usually divided and limited access, akin to US highways/Non NT, NT
 UseOrientation=Y
 Xpm="32 2 2  1"
 "! c #EB989A"
@@ -2115,6 +2171,7 @@ ExtendedLabels=N
 
 [_line]
 Type=0x03
+;GRMN_TYPE: Roads/OTHER_HWY/Other highway road, akin to a state highway in the US/Non NT, NT
 UseOrientation=Y
 Xpm="32 2 2  1"
 "! c #EB989A"
@@ -2129,6 +2186,7 @@ ExtendedLabels=N
 
 [_line]
 Type=0x04
+;GRMN_TYPE: Roads/ARTERIAL/Main city thoroughfare/Non NT, NT
 UseOrientation=Y
 Xpm="32 2 2  1"
 "! c #FDD6A4"
@@ -2143,6 +2201,7 @@ ExtendedLabels=N
 
 [_line]
 Type=0x05
+;GRMN_TYPE: Roads/COLLECTOR/Secondary city thoroughfare/Non NT, NT
 UseOrientation=Y
 Xpm="32 2 2  1"
 "! c #FEFEB3"
@@ -2157,6 +2216,7 @@ ExtendedLabels=N
 
 [_line]
 Type=0x06
+;GRMN_TYPE: Roads/RESIDENTIAL/Residential street, these are typically the most numerous roads in a detailed city map and do not show up until the user is zoomed in quite far/Non NT, NT
 UseOrientation=Y
 Xpm="32 2 2  1"
 "! c #FEFEFE"
@@ -2171,6 +2231,7 @@ ExtendedLabels=N
 
 [_line]
 Type=0x07
+;GRMN_TYPE: Roads/ALLEY, DRIVEWAY/Alleyway, private driveway to residence/Non NT, NT
 UseOrientation=Y
 Xpm="32 2 2  1"
 "! c #FEFEFE"
@@ -2185,6 +2246,7 @@ ExtendedLabels=N
 
 [_line]
 Type=0x08
+;GRMN_TYPE: Roads/LOW_SPEED_RAMP/Highway ramp which is to be driven at low speeds/Non NT, NT
 UseOrientation=Y
 Xpm="32 2 2  1"
 "! c #FEFEFE"
@@ -2199,6 +2261,7 @@ ExtendedLabels=N
 
 [_line]
 Type=0x09
+;GRMN_TYPE: Roads/HIGH_SPEED_RAMP, RAMP/Highway ramp which is to be driven at high speeds/Non NT, NT
 UseOrientation=Y
 Xpm="32 2 2  1"
 "! c #BABABA"
@@ -2213,6 +2276,7 @@ ExtendedLabels=N
 
 [_line]
 Type=0x0a
+;GRMN_TYPE: Roads/UNPAVED_ROAD/Gravel or dirt road/Non NT, NT
 UseOrientation=Y
 Xpm="32 2 2  1"
 "! c #0080FF"
@@ -2227,6 +2291,7 @@ ExtendedLabels=N
 
 [_line]
 Type=0x0b
+;GRMN_TYPE: Roads/MAJOR_CONNECTOR/Major highway connector/Non NT, NT
 UseOrientation=Y
 Xpm="32 2 2  1"
 "! c #E0E0E0"
@@ -2243,6 +2308,7 @@ CustomColor=No
 
 [_line]
 Type=0x0c
+;GRMN_TYPE: Roads/ROUNDABOUT/Roundabout/Non NT, NT
 UseOrientation=Y
 Xpm="32 2 2  1"
 "! c #A0A0A0"
@@ -2257,6 +2323,7 @@ ExtendedLabels=N
 
 [_line]
 Type=0x0d
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_ROUTE_LINE_1/Routable customizable line/Non NT, NT
 UseOrientation=Y
 Xpm="32 2 2  1"
 "! c #FEFEFE"
@@ -2271,6 +2338,7 @@ ExtendedLabels=N
 
 [_line]
 Type=0x0e
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_ROUTE_LINE_2/Routable customizable line/Non NT, NT
 UseOrientation=Y
 Xpm="32 2 2  1"
 "! c #C0C0C0"
@@ -2287,6 +2355,7 @@ CustomColor=No
 
 [_line]
 Type=0x11
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_ROUTE_LINE_5/Routable customizable line/Non NT, NT
 UseOrientation=Y
 Xpm="32 2 2  1"
 "! c #606060"
@@ -2303,6 +2372,7 @@ CustomColor=No
 
 [_line]
 Type=0x12
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_ROUTE_LINE_6/Routable customizable line/Non NT, NT
 UseOrientation=Y
 Xpm="32 2 2  1"
 "! c #FF656A"
@@ -2319,6 +2389,7 @@ CustomColor=No
 
 [_line]
 Type=0x13
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_ROUTE_LINE_7/Routable customizable line/Non NT, NT
 UseOrientation=Y
 Xpm="32 2 2  1"
 "! c #FF656A"
@@ -2335,6 +2406,7 @@ CustomColor=No
 
 [_line]
 Type=0x14
+;GRMN_TYPE: Misc. Line Types/RAILROAD/Railroad/Non NT
 UseOrientation=Y
 Xpm="32 4 2  1"
 "! c #808080"
@@ -2353,6 +2425,7 @@ CustomColor=No
 
 [_line]
 Type=0x16
+;GRMN_TYPE: Roads/TRAIL/Walkway or trail/Non NT, NT
 UseOrientation=Y
 Xpm="32 2 2  1"
 "! c #FF656A"
@@ -2369,6 +2442,7 @@ CustomColor=No
 
 [_line]
 Type=0x18
+;GRMN_TYPE: Water Features/STREAM/Small stream or creek/Non NT
 UseOrientation=Y
 LineWidth=2
 Xpm="0 0 1 0"
@@ -2382,6 +2456,7 @@ CustomColor=No
 
 [_line]
 Type=0x1a
+;GRMN_TYPE: Roads/INTERNATIONAL_FERRY/Major water or rail ferry/Non NT, NT
 UseOrientation=Y
 Xpm="32 2 2  1"
 "! c #0080FF"
@@ -2398,6 +2473,7 @@ CustomColor=No
 
 [_line]
 Type=0x1d
+;GRMN_TYPE: Political Borders/MNR_PLTCL_BDRY/Minor political boundary (typically used for county/parish borders)
 UseOrientation=Y
 Xpm="32 2 2  1"
 "! c #408000"
@@ -2414,6 +2490,7 @@ CustomColor=No
 
 [_line]
 Type=0x1e
+;GRMN_TYPE: Political Borders/INTRN_PLTCL_BDRY/International boundary/Non NT
 UseOrientation=Y
 Xpm="32 2 2  1"
 "! c #808080"
@@ -2430,11 +2507,12 @@ CustomColor=No
 
 [_line]
 Type=0x1f
+;GRMN_TYPE: Water Features/RIVER/Large stream or river/Non NT
 UseOrientation=Y
 LineWidth=5
 Xpm="0 0 1 0"
 "1 c #99CCCC"
-String1=0x02,Fluss 
+String1=0x02,Fluss
 String2=0x00,Fluss (breit)
 ExtendedLabels=Y
 FontStyle=SmallFont
@@ -2444,6 +2522,7 @@ CustomColor=No
 
 [_line]
 Type=0x20
+;GRMN_TYPE: Contour Lines/MINOR_CONTOUR/Minor land-based contour line/Non NT
 UseOrientation=Y
 LineWidth=1
 Xpm="0 0 1 0"
@@ -2457,6 +2536,7 @@ CustomColor=No
 
 [_line]
 Type=0x21
+;GRMN_TYPE: Contour Lines/INT_CONTOUR/Intermediate contour (should be used for about every 5th contour line)/Non NT
 UseOrientation=Y
 LineWidth=2
 Xpm="0 0 1 0"
@@ -2471,6 +2551,7 @@ DaycustomColor:#606060
 
 [_line]
 Type=0x22
+;GRMN_TYPE: Contour Lines/MAJOR_CONTOUR/Major contour (should be used for about every 10th contour line)/Non NT
 UseOrientation=Y
 LineWidth=2
 Xpm="0 0 1 0"
@@ -2485,11 +2566,12 @@ DaycustomColor:#606060
 
 [_line]
 Type=0x26
+;GRMN_TYPE: Water Features/INTERMITTENT_STREAM/Intermittent or dry stream, creek, or ditch/Non NT
 UseOrientation=Y
 LineWidth=6
 Xpm="0 0 1 0"
 "1 c #99CCCC"
-String1=0x02,Kanal 
+String1=0x02,Kanal
 String2=0x00,Kanal (breit)
 ExtendedLabels=Y
 FontStyle=SmallFont
@@ -2499,6 +2581,7 @@ CustomColor=No
 
 [_line]
 Type=0x27
+;GRMN_TYPE: Misc. Line Types/AIRPORT_RUNWAY/Airport runway centerline/Non NT
 UseOrientation=Y
 LineWidth=7
 Xpm="0 0 1 0"
@@ -2513,6 +2596,7 @@ CustomColor=No
 
 [_line]
 Type=0x29
+;GRMN_TYPE: Misc. Line Types/POWERLINE/Powerline/Non NT
 UseOrientation=Y
 LineWidth=1
 Xpm="0 0 1 0"
@@ -2526,6 +2610,7 @@ CustomColor=No
 
 [_line]
 Type=0x10100
+;GRMN_TYPE: //
 UseOrientation=Y
 LineWidth=3
 Xpm="0 0 1 0"
@@ -2540,6 +2625,7 @@ CustomColor=No
 
 [_line]
 Type=0x10101
+;GRMN_TYPE: //
 UseOrientation=Y
 LineWidth=1
 Xpm="0 0 1 0"
@@ -2554,6 +2640,7 @@ CustomColor=No
 
 [_line]
 Type=0x10102
+;GRMN_TYPE: //
 UseOrientation=Y
 LineWidth=4
 Xpm="0 0 1 0"
@@ -2568,6 +2655,7 @@ CustomColor=No
 
 [_line]
 Type=0x10103
+;GRMN_TYPE: //
 UseOrientation=Y
 LineWidth=2
 Xpm="0 0 1 0"
@@ -2582,6 +2670,7 @@ CustomColor=No
 
 [_line]
 Type=0x10104
+;GRMN_TYPE: //
 UseOrientation=Y
 Xpm="32 4 2  1"
 "! c #606060"
@@ -2600,6 +2689,7 @@ CustomColor=No
 
 [_line]
 Type=0x10105
+;GRMN_TYPE: Marine Lines/MARINE_CONTOUR_LINE/Marine contour line/Non NT, NT
 UseOrientation=Y
 LineWidth=1
 BorderWidth=1
@@ -2616,6 +2706,7 @@ CustomColor=No
 
 [_line]
 Type=0x10106
+;GRMN_TYPE: Marine Lines/OVERHEAD_CABLE/Overhead cable/Non NT, NT
 UseOrientation=Y
 LineWidth=1
 BorderWidth=1
@@ -2632,6 +2723,7 @@ CustomColor=No
 
 [_line]
 Type=0x10107
+;GRMN_TYPE: Marine Lines/BRIDGE/Bridge area outline/Non NT, NT
 UseOrientation=Y
 LineWidth=1
 BorderWidth=1
@@ -2648,6 +2740,7 @@ CustomColor=No
 
 [_line]
 Type=0x10108
+;GRMN_TYPE: //
 UseOrientation=Y
 LineWidth=1
 BorderWidth=1
@@ -2664,6 +2757,7 @@ CustomColor=No
 
 [_line]
 Type=0x10109
+;GRMN_TYPE: //
 UseOrientation=Y
 Xpm="32 2 2  1"
 "! c #BD6500"
@@ -2681,6 +2775,7 @@ CustomColor=No
 
 [_line]
 Type=0x1010a
+;GRMN_TYPE: //
 UseOrientation=Y
 LineWidth=2
 Xpm="0 0 1 0"
@@ -2692,255 +2787,9 @@ CustomColor=No
 [end]
 
 
-;[_line]
-;Type=0x1010b
-;UseOrientation=Y
-;LineWidth=2
-;Xpm="0 0 1 0"
-;"1 c #99CCCC"
-;String1=0x02,Abwassergraben
-;ExtendedLabels=Y
-;FontStyle=NoLabel (invisible)
-;CustomColor=No
-;[end]
-
-
-;[_line]
-;Type=0x1010c
-;UseOrientation=Y
-;LineWidth=2
-;Xpm="0 0 1 0"
-;"1 c #BABABA"
-;String1=0x02,Staudamm / -mauer
-;ExtendedLabels=Y
-;FontStyle=NoLabel (invisible)
-;CustomColor=No
-;[end]
-
-
-;[_line]
-;Type=0x1010d
-;UseOrientation=Y
-;LineWidth=4
-;BorderWidth=1
-;Xpm="0 0 2 0"
-;"1 c #FDD6A4"
-;"2 c #DCB000"
-;String1=0x00,Landstraße breit
-;String2=0x02,Landstraße
-;ExtendedLabels=Y
-;FontStyle=NoLabel (invisible)
-;CustomColor=No
-;[end]
-
-
-;[_line]
-;Type=0x1010e
-;UseOrientation=Y
-;LineWidth=4
-;BorderWidth=1
-;Xpm="0 0 2 0"
-;"1 c #FEFEB3"
-;"2 c #626262"
-;String1=0x00,Kreisstraße breit
-;String2=0x02,Kreisstraße
-;ExtendedLabels=Y
-;FontStyle=NoLabel (invisible)
-;CustomColor=No
-;[end]
-
-
-;[_line]
-;Type=0x10110
-;UseOrientation=N
-;Xpm="32 2 2  1"
-;"! c #808080"
-;"  c none"
-;"  !!      !!      !!      !!    "
-;"  !!      !!      !!      !!    "
-;;12345678901234567890123456789012
-;String1=0x02,Schienen (Rückbau)
-;ExtendedLabels=Y
-;FontStyle=NoLabel (invisible)
-;CustomColor=No
-;[end]
-
-
-;[_line]
-;Type=0x10111
-;UseOrientation=N
-;Xpm="32 2 2  1"
-;"! c #808080"
-;"# c #FFFFFF"
-;"!!!!!!!!!#######!!!!!!!!!#######"
-;"!!!!!!!!!#######!!!!!!!!!#######"
-;;12345678901234567890123456789012
-;String1=0x02,Bahn
-;ExtendedLabels=Y
-;FontStyle=NoLabel (invisible)
-;CustomColor=No
-;[end]
-
-
-;[_line]
-;Type=0x10112
-;UseOrientation=N
-;LineWidth=2
-;BorderWidth=0
-;Xpm="0 0 2 0"
-;"1 c #808080"
-;"2 c #FFFFFF"
-;String1=0x02,S-Bahn
-;ExtendedLabels=Y
-;FontStyle=SmallFont
-;CustomColor=No
-;[end]
-
-
-;[_line]
-;Type=0x10113
-;UseOrientation=Y
-;Xpm="32 2 2  1"
-;"! c #808080"
-;"  c none"
-;"!!!!!   !!!!!   !!!!!   !!!!!   "
-;"!!!!!   !!!!!   !!!!!   !!!!!   "
-;;12345678901234567890123456789012
-;String1=0x02,U-Bahn
-;ExtendedLabels=Y
-;FontStyle=SmallFont
-;CustomColor=No
-;[end]
-
-
-;[_line]
-;Type=0x10115
-;UseOrientation=N
-;Xpm="32 2 2  1"
-;"! c #808080"
-;"  c none"
-;"!!!!    !!!!    !!!!    !!!!    "
-;"!!!!    !!!!    !!!!    !!!!    "
-;;12345678901234567890123456789012
-;String1=0x02,S-Bahn (Tunnel)
-;ExtendedLabels=Y
-;FontStyle=SmallFont
-;CustomColor=No
-;[end]
-
-
-;[_line]
-;Type=0x10116
-;UseOrientation=N
-;Xpm="32 2 2  1"
-;"! c #808080"
-;"  c none"
-;"!!!!!!!!        !!!!!!!!        "
-;"!!!!!!!!        !!!!!!!!        "
-;;12345678901234567890123456789012
-;String1=0x02,Bahn (Tunnel)
-;ExtendedLabels=Y
-;FontStyle=NoLabel (invisible)
-;CustomColor=No
-;[end]
-
-
-;[_line]
-;Type=0x10117
-;UseOrientation=N
-;LineWidth=2
-;Xpm="0 0 1 0"
-;"1 c #808080"
-;String1=0x02,U-Bahn (oberirdisch)
-;ExtendedLabels=Y
-;FontStyle=SmallFont
-;CustomColor=No
-;[end]
-
-
-;[_line]
-;Type=0x10118
-;UseOrientation=Y
-;Xpm="32 2 2  1"
-;"! c #101010"
-;"  c none"
-;"!   !!  !   !!  !   !!  !   !!  "
-;"!!   !  !!   !  !!   !  !!   !  "
-;;12345678901234567890123456789012
-;String1=0x02,Klettersteig
-;String2=0x00,Klettersteig breit
-;ExtendedLabels=Y
-;FontStyle=NoLabel (invisible)
-;CustomColor=No
-;[end]
-
-
-;[_line]
-;Type=0x10119
-;UseOrientation=Y
-;Xpm="32 2 2  1"
-;"! c #101010"
-;"  c none"
-;"!    !  !    !  !    !  !    !  "
-;" !  !    !  !    !  !    !  !   "
-;;12345678901234567890123456789012
-;String1=0x02,Klettersteig
-;String2=0x00,Klettersteig schmal
-;ExtendedLabels=Y
-;FontStyle=NoLabel (invisible)
-;CustomColor=No
-;[end]
-
-
-;[_line]
-;Type=0x1011a
-;UseOrientation=Y
-;Xpm="32 4 2  1"
-;"! c #606060"
-;"  c none"
-;"                                "
-;"        !               !       "
-;"!!!!!!! ! !!!!!!!!!!!!! ! !!!!!!"
-;"        !               !       "
-;;12345678901234567890123456789012
-;String1=0x02,Materialseilbahn
-;ExtendedLabels=Y
-;FontStyle=NoLabel (invisible)
-;CustomColor=No
-;[end]
-
-
-;[_line]
-;Type=0x1011b
-;UseOrientation=N
-;Xpm="32 2 2  1"
-;"! c #808080"
-;"  c none"
-;"!!!!    !!!!    !!!!    !!!!    "
-;"!!!!    !!!!    !!!!    !!!!    "
-;;12345678901234567890123456789012
-;String1=0x02,Straßenbahn (Tunnel)
-;ExtendedLabels=Y
-;FontStyle=SmallFont
-;CustomColor=No
-;[end]
-
-
-;[_line]
-;Type=0x1011c
-;UseOrientation=N
-;LineWidth=1
-;Xpm="0 0 1 0"
-;"1 c #7BCA8B"
-;String1=0x02,Naturreservat
-;ExtendedLabels=Y
-;FontStyle=NoLabel (invisible)
-;CustomColor=No
-;[end]
-
-
 [_line]
 Type=0x1011d
+;GRMN_TYPE: //
 UseOrientation=Y
 Xpm="32 2 2  1"
 "! c #BD6500"
@@ -2958,6 +2807,7 @@ CustomColor=No
 
 [_line]
 Type=0x10405
+;GRMN_TYPE: //
 UseOrientation=Y
 Xpm="32 8 2  1"
 "! c #333333"
@@ -2980,6 +2830,7 @@ CustomColor=No
 
 [_line]
 Type=0x10406
+;GRMN_TYPE: //
 UseOrientation=Y
 Xpm="32 8 2  1"
 "! c #333333"
@@ -3002,6 +2853,7 @@ CustomColor=No
 
 [_line]
 Type=0x10407
+;GRMN_TYPE: //
 UseOrientation=Y
 Xpm="32 6 2  1"
 "! c #333333"
@@ -3022,6 +2874,7 @@ CustomColor=No
 
 [_line]
 Type=0x10408
+;GRMN_TYPE: //
 UseOrientation=Y
 Xpm="32 6 2  1"
 "! c #333333"
@@ -3042,6 +2895,7 @@ CustomColor=No
 
 [_line]
 Type=0x10409
+;GRMN_TYPE: Marine Obstruction Area Outlines/OBSTR_DANGER/Danger area outline/Non NT, NT
 UseOrientation=Y
 Xpm="32 12 2  1"
 "! c #333333"
@@ -3068,6 +2922,7 @@ CustomColor=No
 
 [_line]
 Type=0x1040a
+;GRMN_TYPE: //
 UseOrientation=Y
 Xpm="32 12 2  1"
 "! c #333333"
@@ -3094,6 +2949,7 @@ CustomColor=No
 
 [_line]
 Type=0x1040b
+;GRMN_TYPE: //
 UseOrientation=Y
 Xpm="32 10 2  1"
 "! c #333333"
@@ -3118,6 +2974,7 @@ CustomColor=No
 
 [_line]
 Type=0x1040c
+;GRMN_TYPE: //
 UseOrientation=Y
 Xpm="32 10 2  1"
 "! c #333333"
@@ -3140,142 +2997,9 @@ CustomColor=No
 [end]
 
 
-;[_line]
-;Type=0x1040d
-;UseOrientation=Y
-;LineWidth=4
-;BorderWidth=1
-;Xpm="0 0 2 0"
-;"1 c #EB989A"
-;"2 c #CA00A1"
-;String1=0x00,Bundesstraße (wie Autobahn) breit
-;String2=0x02,Bundesstraße (wie Autobahn)
-;ExtendedLabels=Y
-;FontStyle=SmallFont
-;CustomColor=No
-;[end]
-
-
-;[_line]
-;Type=0x1040e
-;UseOrientation=Y
-;LineWidth=4
-;BorderWidth=1
-;Xpm="0 0 2 0"
-;"1 c #EB989A"
-;"2 c #CA00A1"
-;String1=0x00,Bundesstraße breit
-;String2=0x02,Bundesstraße
-;ExtendedLabels=Y
-;FontStyle=SmallFont
-;CustomColor=No
-;[end]
-
-
-;[_line]
-;Type=0x10410
-;UseOrientation=Y
-;Xpm="32 2 2  1"
-;"! c #FF0000"
-;"  c none"
-;"!   !   !   !   !   !   !   !   "
-;"!!  !!  !!  !!  !!  !!  !!  !!  "
-;;12345678901234567890123456789012
-;String1=0x02,Bergwanderweg T3 / T4
-;String2=0x00,Bergwanderweg T3 / T4 breit
-;ExtendedLabels=Y
-;FontStyle=NoLabel (invisible)
-;CustomColor=No
-;[end]
-
-
-;[_line]
-;Type=0x10411
-;UseOrientation=Y
-;Xpm="32 2 2  1"
-;"! c #101010"
-;"  c none"
-;"!   !   !   !   !   !   !   !   "
-;"!!  !!  !!  !!  !!  !!  !!  !!  "
-;;12345678901234567890123456789012
-;String1=0x02,Bergwanderweg T5 / T6
-;String2=0x00,Bergwanderweg T5 / T6 breit
-;ExtendedLabels=Y
-;FontStyle=NoLabel (invisible)
-;CustomColor=No
-;[end]
-
-
-;[_line]
-;Type=0x10412
-;UseOrientation=Y
-;Xpm="32 2 2  1"
-;"! c #0000FF"
-;"  c none"
-;"!   !   !   !   !   !   !   !   "
-;"!!  !!  !!  !!  !!  !!  !!  !!  "
-;;12345678901234567890123456789012
-;String1=0x02,Bergwanderweg T1 / T2
-;String2=0x00,Bergwanderweg T1 / T2 breit
-;ExtendedLabels=Y
-;FontStyle=NoLabel (invisible)
-;CustomColor=No
-;[end]
-
-
-;[_line]
-;Type=0x10413
-;UseOrientation=Y
-;Xpm="32 2 2  1"
-;"! c #FF0000"
-;"  c none"
-;"!   !   !   !   !   !   !   !   "
-;" !   !   !   !   !   !   !   !  "
-;;12345678901234567890123456789012
-;String1=0x02,Bergwanderweg T3 / T4
-;String2=0x00,Bergwanderweg T3 / T4 schmal
-;ExtendedLabels=Y
-;FontStyle=NoLabel (invisible)
-;CustomColor=No
-;[end]
-
-
-;[_line]
-;Type=0x10414
-;UseOrientation=Y
-;Xpm="32 2 2  1"
-;"! c #101010"
-;"  c none"
-;"!   !   !   !   !   !   !   !   "
-;" !   !   !   !   !   !   !   !  "
-;;12345678901234567890123456789012
-;String1=0x02,Bergwanderweg T5 / T6
-;String2=0x00,Bergwanderweg T5 / T6 schmal
-;ExtendedLabels=Y
-;FontStyle=NoLabel (invisible)
-;CustomColor=No
-;[end]
-
-
-;[_line]
-;Type=0x10415
-;UseOrientation=Y
-;Xpm="32 2 2  1"
-;"! c #3900FF"
-;"  c none"
-;"!   !   !   !   !   !   !   !   "
-;" !   !   !   !   !   !   !   !  "
-;;12345678901234567890123456789012
-;String1=0x02,Bergwanderweg T1 / T2
-;String2=0x00,Bergwanderweg T1 / T2 schmal
-;ExtendedLabels=Y
-;FontStyle=NoLabel (invisible)
-;CustomColor=No
-;[end]
-
-
 [_line]
 Type=0x10e00
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_1/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 LineWidth=3
 Xpm="0 0 1 0"
@@ -3290,6 +3014,7 @@ CustomColor=No
 
 [_line]
 Type=0x10e01
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_2/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 LineWidth=2
 BorderWidth=1
@@ -3305,6 +3030,7 @@ CustomColor=No
 
 [_line]
 Type=0x10e02
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_3/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 LineWidth=2
 BorderWidth=1
@@ -3320,6 +3046,7 @@ CustomColor=No
 
 [_line]
 Type=0x10e03
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_4/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 Xpm="32 2 2  1"
 "! c #006400"
@@ -3336,6 +3063,7 @@ CustomColor=No
 
 [_line]
 Type=0x10e04
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_5/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 Xpm="32 2 2  1"
 "! c #99CCCC"
@@ -3352,11 +3080,12 @@ CustomColor=No
 
 [_line]
 Type=0x10e05
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_6/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 LineWidth=1
 Xpm="0 0 1 0"
 "1 c #FF656A"
-String1=0x02,Fußweg 
+String1=0x02,Fußweg
 String2=0x00,Fußweg schmal
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -3366,6 +3095,7 @@ CustomColor=No
 
 [_line]
 Type=0x10e06
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_7/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 Xpm="32 2 2  1"
 "! c #009520"
@@ -3383,6 +3113,7 @@ CustomColor=No
 
 [_line]
 Type=0x10e07
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_8/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 LineWidth=2
 Xpm="0 0 1 0"
@@ -3397,6 +3128,7 @@ CustomColor=No
 
 [_line]
 Type=0x10e08
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_9/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 Xpm="32 2 2  1"
 "! c #BD6500"
@@ -3414,6 +3146,7 @@ CustomColor=No
 
 [_line]
 Type=0x10e09
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_10/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 LineWidth=3
 Xpm="0 0 1 0"
@@ -3428,12 +3161,13 @@ CustomColor=No
 
 [_line]
 Type=0x10e0a
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_11/Non-routable customizable line/Non NT, NT
 UseOrientation=N
 LineWidth=1
 Xpm="0 0 1 0"
 "1 c #809BC0"
 String1=0x00,Autobahn sehr schmal
-String2=0x02,Autobahn 
+String2=0x02,Autobahn
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
@@ -3442,12 +3176,13 @@ CustomColor=No
 
 [_line]
 Type=0x10e0b
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_12/Non-routable customizable line/Non NT, NT
 UseOrientation=N
 LineWidth=1
 Xpm="0 0 1 0"
 "1 c #EB989A"
 String1=0x00,Bundesstraße sehr schmal
-String2=0x02,Bundesstraße 
+String2=0x02,Bundesstraße
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
@@ -3456,6 +3191,7 @@ CustomColor=No
 
 [_line]
 Type=0x10e0c
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_13/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 Xpm="32 2 2  1"
 "! c #009520"
@@ -3473,6 +3209,7 @@ CustomColor=No
 
 [_line]
 Type=0x10e0d
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_14/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 LineWidth=4
 BorderWidth=1
@@ -3489,6 +3226,7 @@ CustomColor=No
 
 [_line]
 Type=0x10e0e
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_15/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 LineWidth=4
 BorderWidth=1
@@ -3505,6 +3243,7 @@ CustomColor=No
 
 [_line]
 Type=0x10e0f
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_16/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 Xpm="32 2 2  1"
 "! c #9932CC"
@@ -3521,6 +3260,7 @@ CustomColor=No
 
 [_line]
 Type=0x10e10
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_17/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 LineWidth=1
 Xpm="0 0 1 0"
@@ -3535,6 +3275,7 @@ CustomColor=No
 
 [_line]
 Type=0x10e11
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_18/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 Xpm="32 2 2  1"
 "! c #9932CC"
@@ -3552,6 +3293,7 @@ CustomColor=No
 
 [_line]
 Type=0x10e12
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_19/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 Xpm="32 2 2  1"
 "! c #9932CC"
@@ -3569,6 +3311,7 @@ CustomColor=No
 
 [_line]
 Type=0x10e13
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_20/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 LineWidth=3
 Xpm="0 0 1 0"
@@ -3583,6 +3326,7 @@ CustomColor=No
 
 [_line]
 Type=0x10e14
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_21/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 LineWidth=2
 Xpm="0 0 1 0"
@@ -3597,6 +3341,7 @@ CustomColor=No
 
 [_line]
 Type=0x10e15
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_22/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 Xpm="32 2 2  1"
 "! c #9932CC"
@@ -3614,6 +3359,7 @@ CustomColor=No
 
 [_line]
 Type=0x10e16
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_23/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 Xpm="32 2 2  1"
 "! c #9932CC"
@@ -3631,6 +3377,7 @@ CustomColor=No
 
 [_line]
 Type=0x10e17
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_24/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 Xpm="32 2 2  1"
 "! c #9932CC"
@@ -3648,6 +3395,7 @@ CustomColor=No
 
 [_line]
 Type=0x10e18
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_25/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 Xpm="32 2 2  1"
 "! c #BD6500"
@@ -3665,6 +3413,7 @@ CustomColor=No
 
 [_line]
 Type=0x10e19
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_26/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 LineWidth=5
 Xpm="0 0 1 0"
@@ -3679,6 +3428,7 @@ CustomColor=No
 
 [_line]
 Type=0x10e1a
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_27/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 LineWidth=3
 Xpm="0 0 1 0"
@@ -3693,6 +3443,7 @@ CustomColor=No
 
 [_line]
 Type=0x10e1b
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_28/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 LineWidth=2
 Xpm="0 0 1 0"
@@ -3707,6 +3458,7 @@ CustomColor=No
 
 [_line]
 Type=0x10e1c
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_29/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 LineWidth=1
 Xpm="0 0 1 0"
@@ -3721,6 +3473,7 @@ CustomColor=No
 
 [_line]
 Type=0x10e1d
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_30/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 LineWidth=2
 BorderWidth=0
@@ -3736,6 +3489,7 @@ CustomColor=No
 
 [_line]
 Type=0x10e1e
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_31/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 Xpm="32 2 2  1"
 "! c #9932CC"
@@ -3753,6 +3507,7 @@ CustomColor=No
 
 [_line]
 Type=0x10e1f
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_32/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 LineWidth=2
 Xpm="0 0 1 0"
@@ -3766,6 +3521,7 @@ CustomColor=No
 
 [_line]
 Type=0x10f01
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_34/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 LineWidth=2
 Xpm="0 0 1 0"
@@ -3779,6 +3535,7 @@ CustomColor=No
 
 [_line]
 Type=0x10f02
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_35/Non-routable customizable line/Non NT, NT
 UseOrientation=N
 LineWidth=8
 BorderWidth=2
@@ -3796,6 +3553,7 @@ CustomColor=No
 
 [_line]
 Type=0x10f03
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_36/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 LineWidth=2
 BorderWidth=1
@@ -3812,6 +3570,7 @@ CustomColor=No
 
 [_line]
 Type=0x10f04
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_37/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 LineWidth=1
 BorderWidth=1
@@ -3828,6 +3587,7 @@ CustomColor=No
 
 [_line]
 Type=0x10f05
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_38/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 LineWidth=4
 BorderWidth=1
@@ -3844,6 +3604,7 @@ CustomColor=No
 
 [_line]
 Type=0x10f06
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_39/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 LineWidth=2
 BorderWidth=1
@@ -3860,6 +3621,7 @@ CustomColor=No
 
 [_line]
 Type=0x10f07
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_40/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 Xpm="32 2 2  1"
 "! c #0080FF"
@@ -3877,6 +3639,7 @@ CustomColor=No
 
 [_line]
 Type=0x10f08
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_41/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 LineWidth=2
 BorderWidth=1
@@ -3893,6 +3656,7 @@ CustomColor=No
 
 [_line]
 Type=0x10f09
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_42/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 LineWidth=1
 BorderWidth=1
@@ -3909,6 +3673,7 @@ CustomColor=No
 
 [_line]
 Type=0x10f0a
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_43/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 LineWidth=3
 BorderWidth=1
@@ -3916,7 +3681,7 @@ Xpm="0 0 2 0"
 "1 c #809BC0"
 "2 c #617188"
 String1=0x00,Autobahn mittel
-String2=0x02,Autobahn 
+String2=0x02,Autobahn
 ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=No
@@ -3925,6 +3690,7 @@ CustomColor=No
 
 [_line]
 Type=0x10f0b
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_44/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 LineWidth=1
 BorderWidth=1
@@ -3932,7 +3698,7 @@ Xpm="0 0 2 0"
 "1 c #809BC0"
 "2 c #617188"
 String1=0x00,Autobahn schmal
-String2=0x02,Autobahn 
+String2=0x02,Autobahn
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
@@ -3941,6 +3707,7 @@ CustomColor=No
 
 [_line]
 Type=0x10f0c
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_45/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 LineWidth=2
 BorderWidth=1
@@ -3957,6 +3724,7 @@ CustomColor=No
 
 [_line]
 Type=0x10f0d
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_46/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 LineWidth=1
 BorderWidth=1
@@ -3973,6 +3741,7 @@ CustomColor=No
 
 [_line]
 Type=0x10f0e
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_47/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 LineWidth=2
 BorderWidth=1
@@ -3989,6 +3758,7 @@ CustomColor=No
 
 [_line]
 Type=0x10f0f
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_48/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 LineWidth=1
 BorderWidth=1
@@ -4005,6 +3775,7 @@ CustomColor=No
 
 [_line]
 Type=0x10f10
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_49/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 LineWidth=2
 BorderWidth=1
@@ -4021,6 +3792,7 @@ CustomColor=No
 
 [_line]
 Type=0x10f11
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_50/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 LineWidth=1
 BorderWidth=1
@@ -4037,6 +3809,7 @@ CustomColor=No
 
 [_line]
 Type=0x10f12
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_51/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 LineWidth=2
 BorderWidth=1
@@ -4053,6 +3826,7 @@ CustomColor=No
 
 [_line]
 Type=0x10f13
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_52/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 LineWidth=1
 BorderWidth=1
@@ -4069,6 +3843,7 @@ CustomColor=No
 
 [_line]
 Type=0x10f14
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_53/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 LineWidth=2
 BorderWidth=1
@@ -4085,6 +3860,7 @@ CustomColor=No
 
 [_line]
 Type=0x10f15
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_54/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 LineWidth=1
 BorderWidth=1
@@ -4101,6 +3877,7 @@ CustomColor=No
 
 [_line]
 Type=0x10f16
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_55/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 LineWidth=4
 BorderWidth=1
@@ -4117,6 +3894,7 @@ CustomColor=No
 
 [_line]
 Type=0x10f17
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_56/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 LineWidth=2
 BorderWidth=1
@@ -4133,6 +3911,7 @@ CustomColor=No
 
 [_line]
 Type=0x10f18
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_57/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 LineWidth=2
 BorderWidth=1
@@ -4149,6 +3928,7 @@ CustomColor=No
 
 [_line]
 Type=0x10f19
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_58/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 LineWidth=1
 BorderWidth=1
@@ -4165,6 +3945,7 @@ CustomColor=No
 
 [_line]
 Type=0x10f1a
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_59/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 LineWidth=3
 BorderWidth=1
@@ -4181,6 +3962,7 @@ CustomColor=No
 
 [_line]
 Type=0x10f1b
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_60/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 LineWidth=2
 BorderWidth=1
@@ -4197,6 +3979,7 @@ CustomColor=No
 
 [_line]
 Type=0x10f1c
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_61/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 LineWidth=2
 BorderWidth=1
@@ -4213,6 +3996,7 @@ CustomColor=No
 
 [_line]
 Type=0x10f1d
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_62/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 LineWidth=1
 BorderWidth=1
@@ -4229,6 +4013,7 @@ CustomColor=No
 
 [_line]
 Type=0x10f1e
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_63/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 LineWidth=3
 BorderWidth=1
@@ -4245,6 +4030,7 @@ CustomColor=No
 
 [_line]
 Type=0x10f1f
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_64/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 LineWidth=2
 BorderWidth=1
@@ -4261,6 +4047,7 @@ CustomColor=No
 
 [_line]
 Type=0x11f01
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_546/Non-routable customizable line/Non NT, NT
 UseOrientation=N
 Xpm="32 8 2  1"
 "! c #606060"
@@ -4283,6 +4070,7 @@ CustomColor=No
 
 [_line]
 Type=0x11f02
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_547/Non-routable customizable line/Non NT, NT
 UseOrientation=N
 Xpm="32 16 2  1"
 "! c #333333"
@@ -4311,6 +4099,7 @@ ExtendedLabels=N
 
 [_line]
 Type=0x11f03
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_548/Non-routable customizable line/Non NT, NT
 UseOrientation=N
 Xpm="32 14 2  1"
 "! c #333333"
@@ -4337,6 +4126,7 @@ ExtendedLabels=N
 
 [_line]
 Type=0x11f04
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_549/Non-routable customizable line/Non NT, NT
 UseOrientation=N
 Xpm="32 12 2  1"
 "! c #333333"
@@ -4361,6 +4151,7 @@ ExtendedLabels=N
 
 [_line]
 Type=0x11f05
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_550/Non-routable customizable line/Non NT, NT
 UseOrientation=N
 Xpm="32 10 2  1"
 "! c #333333"
@@ -4383,6 +4174,7 @@ ExtendedLabels=N
 
 [_line]
 Type=0x11f06
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_551/Non-routable customizable line/Non NT, NT
 UseOrientation=N
 LineWidth=1
 Xpm="0 0 1 0"
@@ -4397,6 +4189,7 @@ CustomColor=No
 
 [_line]
 Type=0x11f07
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_552/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 Xpm="32 2 2  1"
 "! c #FF0000"
@@ -4414,6 +4207,7 @@ CustomColor=No
 
 [_line]
 Type=0x11f08
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_553/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 Xpm="32 2 2  1"
 "! c #101010"
@@ -4431,6 +4225,7 @@ CustomColor=No
 
 [_line]
 Type=0x11f09
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_554/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 Xpm="32 2 2  1"
 "! c #0000FF"
@@ -4448,6 +4243,7 @@ CustomColor=No
 
 [_line]
 Type=0x11f0a
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_555/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 Xpm="32 2 2  1"
 "! c #FF0000"
@@ -4465,6 +4261,7 @@ CustomColor=No
 
 [_line]
 Type=0x11f0b
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_556/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 Xpm="32 2 2  1"
 "! c #101010"
@@ -4482,6 +4279,7 @@ CustomColor=No
 
 [_line]
 Type=0x11f0c
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_557/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 Xpm="32 2 2  1"
 "! c #3900FF"
@@ -4499,6 +4297,7 @@ CustomColor=No
 
 [_line]
 Type=0x11f10
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_561/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 Xpm="32 2 2  1"
 "! c #0080FF"
@@ -4515,6 +4314,7 @@ CustomColor=No
 
 [_line]
 Type=0x11f11
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_562/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 Xpm="32 4 2  1"
 "! c #FF656A"
@@ -4533,6 +4333,7 @@ CustomColor=No
 
 [_line]
 Type=0x11f12
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_563/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 LineWidth=2
 Xpm="0 0 1 0"
@@ -4546,6 +4347,7 @@ CustomColor=No
 
 [_line]
 Type=0x11f13
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_564/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 LineWidth=5
 BorderWidth=1
@@ -4562,6 +4364,7 @@ CustomColor=No
 
 [_line]
 Type=0x11f14
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_565/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 LineWidth=4
 BorderWidth=1
@@ -4578,6 +4381,7 @@ CustomColor=No
 
 [_line]
 Type=0x11f15
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_566/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 LineWidth=4
 BorderWidth=1
@@ -4594,6 +4398,7 @@ CustomColor=No
 
 [_line]
 Type=0x11f16
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_567/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 LineWidth=4
 BorderWidth=1
@@ -4610,6 +4415,7 @@ CustomColor=No
 
 [_line]
 Type=0x11f17
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_568/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 LineWidth=4
 BorderWidth=1
@@ -4626,6 +4432,7 @@ CustomColor=No
 
 [_line]
 Type=0x11f18
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_569/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 LineWidth=3
 BorderWidth=1
@@ -4642,6 +4449,7 @@ CustomColor=No
 
 [_line]
 Type=0x11f19
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_570/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 LineWidth=3
 BorderWidth=1
@@ -4658,6 +4466,7 @@ CustomColor=No
 
 [_line]
 Type=0x11f1a
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_571/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 LineWidth=3
 BorderWidth=1
@@ -4674,6 +4483,7 @@ CustomColor=No
 
 [_line]
 Type=0x11f1b
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_572/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 LineWidth=3
 BorderWidth=1
@@ -4690,6 +4500,7 @@ CustomColor=No
 
 [_line]
 Type=0x11f1c
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_573/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 LineWidth=2
 Xpm="0 0 1 0"
@@ -4704,6 +4515,7 @@ CustomColor=No
 
 [_line]
 Type=0x11f1d
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_574/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 Xpm="32 2 2  1"
 "! c #0080FF"
@@ -4721,6 +4533,7 @@ CustomColor=No
 
 [_line]
 Type=0x11f1e
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_575/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 Xpm="32 4 2  1"
 "! c #FF656A"
@@ -4739,6 +4552,7 @@ CustomColor=No
 
 [_line]
 Type=0x11f1f
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_576/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 Xpm="32 4 2  1"
 "! c #606060"
@@ -4757,6 +4571,7 @@ CustomColor=No
 
 [_line]
 Type=0x12000
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_577/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 LineWidth=2
 Xpm="0 0 1 0"
@@ -4770,6 +4585,7 @@ CustomColor=No
 
 [_line]
 Type=0x12001
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_578/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 LineWidth=2
 Xpm="0 0 1 0"
@@ -4783,6 +4599,7 @@ CustomColor=No
 
 [_line]
 Type=0x12002
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_579/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 LineWidth=2
 Xpm="0 0 1 0"
@@ -4796,6 +4613,7 @@ CustomColor=No
 
 [_line]
 Type=0x12003
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_580/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 LineWidth=2
 Xpm="0 0 1 0"
@@ -4809,6 +4627,7 @@ CustomColor=No
 
 [_line]
 Type=0x12004
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_581/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 LineWidth=2
 Xpm="0 0 1 0"
@@ -4822,6 +4641,7 @@ CustomColor=No
 
 [_line]
 Type=0x12005
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_582/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 LineWidth=2
 Xpm="0 0 1 0"
@@ -4835,6 +4655,7 @@ CustomColor=No
 
 [_line]
 Type=0x12006
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_583/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 Xpm="32 2 2  1"
 "! c #FF8000"
@@ -4851,6 +4672,7 @@ CustomColor=No
 
 [_line]
 Type=0x12007
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_584/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 Xpm="32 4 2  1"
 "! c #00CA00"
@@ -4867,6 +4689,7 @@ ExtendedLabels=N
 
 [_line]
 Type=0x12008
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_585/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 Xpm="32 4 2  1"
 "! c #3930D5"
@@ -4883,6 +4706,7 @@ ExtendedLabels=N
 
 [_line]
 Type=0x12009
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_586/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 Xpm="32 4 2  1"
 "! c #FF0000"
@@ -4899,6 +4723,7 @@ ExtendedLabels=N
 
 [_line]
 Type=0x1200a
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_587/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 Xpm="32 4 2  1"
 "! c #202020"
@@ -4915,6 +4740,7 @@ ExtendedLabels=N
 
 [_line]
 Type=0x1200b
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_588/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 Xpm="32 4 2  1"
 "! c #FF9500"
@@ -4931,6 +4757,7 @@ ExtendedLabels=N
 
 [_line]
 Type=0x1200c
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_589/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 Xpm="32 2 2  1"
 "! c #00CA00"
@@ -4945,6 +4772,7 @@ ExtendedLabels=N
 
 [_line]
 Type=0x1200d
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_590/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 Xpm="32 2 2  1"
 "! c #3930D5"
@@ -4959,6 +4787,7 @@ ExtendedLabels=N
 
 [_line]
 Type=0x1200e
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_591/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 Xpm="32 2 2  1"
 "! c #FF0000"
@@ -4973,6 +4802,7 @@ ExtendedLabels=N
 
 [_line]
 Type=0x1200f
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_592/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 Xpm="32 2 2  1"
 "! c #202020"
@@ -4987,6 +4817,7 @@ ExtendedLabels=N
 
 [_line]
 Type=0x12010
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_593/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 Xpm="32 2 2  1"
 "! c #FF9500"
@@ -5001,6 +4832,7 @@ ExtendedLabels=N
 
 [_line]
 Type=0x12011
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_594/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 Xpm="32 2 2  1"
 "! c #FFFF00"
@@ -5015,6 +4847,7 @@ ExtendedLabels=N
 
 [_line]
 Type=0x12012
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_595/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 Xpm="32 2 2  1"
 "! c #FF9500"
@@ -5029,6 +4862,7 @@ ExtendedLabels=N
 
 [_line]
 Type=0x12013
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_596/Non-routable customizable line/Non NT, NT
 UseOrientation=N
 Xpm="32 2 2  1"
 "! c #FF6500"
@@ -5043,6 +4877,7 @@ ExtendedLabels=N
 
 [_line]
 Type=0x12014
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_597/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 Xpm="32 2 2  1"
 "! c #FFCA00"
@@ -5054,8 +4889,10 @@ String1=0x02,Funpark
 ExtendedLabels=N
 [end]
 
+
 [_line]
 Type=0x12015
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_598/Non-routable customizable line/Non NT, NT
 UseOrientation=N
 Xpm="32 1 2  1"
 "! c #99CCCC"
@@ -5071,8 +4908,10 @@ FontStyle=NoLabel (invisible)
 CustomColor=No
 [end]
 
+
 [_line]
 Type=0x12016
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_599/Non-routable customizable line/Non NT, NT
 UseOrientation=N
 Xpm="32 2 2  1"
 "! c #99CCCC"
@@ -5092,6 +4931,7 @@ CustomColor=No
 
 [_line]
 Type=0x12017
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_600/Non-routable customizable line/Non NT, NT
 UseOrientation=N
 Xpm="32 3 2  1"
 "! c #99CCCC"
@@ -5112,6 +4952,7 @@ CustomColor=No
 
 [_line]
 Type=0x12018
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_601/Non-routable customizable line/Non NT, NT
 UseOrientation=N
 Xpm="32 4 2  1"
 "! c #99CCCC"
@@ -5133,6 +4974,7 @@ CustomColor=No
 
 [_line]
 Type=0x12019
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_602/Non-routable customizable line/Non NT, NT
 UseOrientation=N
 Xpm="32 5 2  1"
 "! c #99CCCC"
@@ -5155,6 +4997,7 @@ CustomColor=No
 
 [_line]
 Type=0x1201a
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_603/Non-routable customizable line/Non NT, NT
 UseOrientation=N
 Xpm="32 6 2  1"
 "! c #99CCCC"
@@ -5175,8 +5018,10 @@ FontStyle=NoLabel (invisible)
 CustomColor=No
 [end]
 
+
 [_line]
 Type=0x1201b
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_604/Non-routable customizable line/Non NT, NT
 UseOrientation=N
 Xpm="32 2 2  1"
 "! c #99CCCC"
@@ -5193,8 +5038,10 @@ FontStyle=NoLabel (invisible)
 CustomColor=No
 [end]
 
+
 [_line]
 Type=0x1201c
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_605/Non-routable customizable line/Non NT, NT
 UseOrientation=N
 Xpm="32 2 2  1"
 "! c #99CCCC"
@@ -5211,8 +5058,10 @@ FontStyle=NoLabel (invisible)
 CustomColor=No
 [end]
 
+
 [_line]
 Type=0x1201d
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_606/Non-routable customizable line/Non NT, NT
 UseOrientation=N
 Xpm="32 2 2  1"
 "! c #99CCCC"
@@ -5232,6 +5081,7 @@ CustomColor=No
 
 [_line]
 Type=0x1201e
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_607/Non-routable customizable line/Non NT, NT
 UseOrientation=N
 Xpm="32 2 2  1"
 "! c #616DE5"
@@ -5251,6 +5101,7 @@ CustomColor=No
 
 [_line]
 Type=0x12100
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_609/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 LineWidth=4
 BorderWidth=1
@@ -5267,6 +5118,7 @@ CustomColor=No
 
 [_line]
 Type=0x12101
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_610/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 LineWidth=4
 BorderWidth=1
@@ -5283,6 +5135,7 @@ CustomColor=No
 
 [_line]
 Type=0x12102
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_611/Non-routable customizable line/Non NT, NT
 UseOrientation=N
 Xpm="32 2 2  1"
 "! c #808080"
@@ -5299,6 +5152,7 @@ CustomColor=No
 
 [_line]
 Type=0x12103
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_612/Non-routable customizable line/Non NT, NT
 UseOrientation=N
 Xpm="32 2 2  1"
 "! c #808080"
@@ -5312,8 +5166,10 @@ FontStyle=NoLabel (invisible)
 CustomColor=No
 [end]
 
+
 [_line]
 Type=0x12104
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_613/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 LineWidth=2
 Xpm="0 0 1 0"
@@ -5327,6 +5183,7 @@ CustomColor=No
 
 [_line]
 Type=0x12105
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_614/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 LineWidth=2
 Xpm="0 0 1 0"
@@ -5337,8 +5194,10 @@ FontStyle=NoLabel (invisible)
 CustomColor=No
 [end]
 
+
 [_line]
 Type=0x12106
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_615/Non-routable customizable line/Non NT, NT
 UseOrientation=N
 LineWidth=2
 BorderWidth=0
@@ -5354,6 +5213,7 @@ CustomColor=No
 
 [_line]
 Type=0x12107
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_616/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 Xpm="32 2 2  1"
 "! c #808080"
@@ -5370,6 +5230,7 @@ CustomColor=No
 
 [_line]
 Type=0x12108
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_617/Non-routable customizable line/Non NT, NT
 UseOrientation=N
 Xpm="32 2 2  1"
 "! c #808080"
@@ -5386,6 +5247,7 @@ CustomColor=No
 
 [_line]
 Type=0x12109
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_618/Non-routable customizable line/Non NT, NT
 UseOrientation=N
 Xpm="32 2 2  1"
 "! c #808080"
@@ -5402,6 +5264,7 @@ CustomColor=No
 
 [_line]
 Type=0x1210a
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_619/Non-routable customizable line/Non NT, NT
 UseOrientation=N
 LineWidth=2
 Xpm="0 0 1 0"
@@ -5415,6 +5278,7 @@ CustomColor=No
 
 [_line]
 Type=0x1210b
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_620/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 Xpm="32 2 2  1"
 "! c #101010"
@@ -5432,6 +5296,7 @@ CustomColor=No
 
 [_line]
 Type=0x1210c
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_621/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 Xpm="32 2 2  1"
 "! c #101010"
@@ -5449,6 +5314,7 @@ CustomColor=No
 
 [_line]
 Type=0x1210d
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_622/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
 Xpm="32 4 2  1"
 "! c #606060"
@@ -5467,6 +5333,7 @@ CustomColor=No
 
 [_line]
 Type=0x1210e
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_623/Non-routable customizable line/Non NT, NT
 UseOrientation=N
 Xpm="32 2 2  1"
 "! c #808080"
@@ -5483,6 +5350,7 @@ CustomColor=No
 
 [_line]
 Type=0x1210f
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_624/Non-routable customizable line/Non NT, NT
 UseOrientation=N
 LineWidth=1
 Xpm="0 0 1 0"
@@ -5496,14 +5364,14 @@ CustomColor=No
 
 [_line]
 Type=0x12110
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_625/Non-routable customizable line/Non NT, NT
 UseOrientation=N
 LineWidth=2
 Xpm="0 0 1 0"
 "1 c #6BC375"
-;"1 c #AED1A0"
 String1=0x00,hedge
-String3=0x02,Hecke
-String4=0x04,hedge
+String2=0x02,Hecke
+String3=0x04,hedge
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
@@ -5512,14 +5380,14 @@ CustomColor=No
 
 [_line]
 Type=0x12111
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_626/Non-routable customizable line/Non NT, NT
 UseOrientation=N
 LineWidth=1
 Xpm="0 0 1 0"
 "1 c #6BC375"
-;"1 c #AED1A0"
 String1=0x00,hedge bank
-String3=0x02,Wallhecke/Knick
-String4=0x04,hedge bank
+String2=0x02,Wallhecke/Knick
+String3=0x04,hedge bank
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
@@ -5528,8 +5396,9 @@ CustomColor=No
 
 [_line]
 Type=0x12112
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_627/Non-routable customizable line/Non NT, NT
 UseOrientation=Y
-Xpm="32 4 2 1"
+Xpm="32 4 2  1"
 "! c #249D37"
 "  c none"
 " !!              !!             "
@@ -5538,8 +5407,8 @@ Xpm="32 4 2 1"
 " !!              !!             "
 ;12345678901234567890123456789012
 String1=0x00,Tree Row
-String3=0x02,Baumreihe
-String4=0x04,Tree Row
+String2=0x02,Baumreihe
+String3=0x04,Tree Row
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
@@ -5548,8 +5417,9 @@ CustomColor=No
 
 [_line]
 Type=0x12113
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_628/Non-routable customizable line/Non NT, NT
 UseOrientation=N
-Xpm="32 2 2 1"
+Xpm="32 2 2  1"
 "! c #B4B4B4"
 "# c #FFFFFF"
 "!!!!!!!!!#######!!!!!!!!!#######"
@@ -5568,6 +5438,7 @@ CustomColor=No
 [_point]
 Type=0x001
 SubType=0x00
+;GRMN_TYPE: Political Entities/CITY_10M/Large city with >10 million inhabitants/Non NT
 String1=0x02,Megastadt
 ExtendedLabels=Y
 FontStyle=LargeFont
@@ -5590,6 +5461,7 @@ DayXpm="8 8 2 1"   Colormode=16
 [_point]
 Type=0x002
 SubType=0x00
+;GRMN_TYPE: Political Entities/CITY_5M, LARGE_CITY/Large city center, typically 1M+ inhabitants/Non NT
 String1=0x02,Großstadt
 ExtendedLabels=Y
 FontStyle=LargeFont
@@ -5612,6 +5484,7 @@ DayXpm="6 6 4 1"   Colormode=16
 [_point]
 Type=0x006
 SubType=0x00
+;GRMN_TYPE: Political Entities/CITY_200K/City with the range of (200, 500] thousand inhabitants/Non NT
 String1=0x02,Stadt
 ExtendedLabels=Y
 FontStyle=Default
@@ -5630,6 +5503,7 @@ DayXpm="4 4 2 1"   Colormode=16
 [_point]
 Type=0x00b
 SubType=0x00
+;GRMN_TYPE: Political Entities/CITY_5K/City with the range of (5, 10] thousand inhabitants/Non NT
 String1=0x02,Stadtteil
 ExtendedLabels=Y
 FontStyle=NormalFont
@@ -5650,6 +5524,7 @@ DayXpm="4 4 2 1"   Colormode=16
 [_point]
 Type=0x00c
 SubType=0x00
+;GRMN_TYPE: Political Entities/CITY_LT5K, SMALL_CITY/Small city or town center, typically less than 50K inhabitants/Non NT
 String1=0x02,Dorf
 ExtendedLabels=Y
 FontStyle=NormalFont
@@ -5670,6 +5545,7 @@ DayXpm="4 4 2 1"   Colormode=16
 [_point]
 Type=0x00d
 SubType=0x00
+;GRMN_TYPE: Political Entities/CITY_UNKNOWN/City of unknown population/Non NT
 String1=0x02,Bauernschaft, Weiler
 ExtendedLabels=Y
 FontStyle=NormalFont
@@ -5689,6 +5565,7 @@ DayXpm="4 4 2 1"   Colormode=16
 [_point]
 Type=0x012
 SubType=0x06
+;GRMN_TYPE: //
 String1=0x02,Leuchtturm
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -5723,6 +5600,7 @@ DayXpm="12 16 6 1"   Colormode=16
 [_point]
 Type=0x012
 SubType=0x07
+;GRMN_TYPE: //
 String1=0x02,Tor
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -5741,6 +5619,7 @@ DayXpm="6 4 2 1"   Colormode=16
 [_point]
 Type=0x012
 SubType=0x08
+;GRMN_TYPE: //
 String1=0x02,Poller
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -5758,6 +5637,7 @@ DayXpm="3 3 2 1"   Colormode=16
 [_point]
 Type=0x012
 SubType=0x09
+;GRMN_TYPE: //
 String1=0x02,Umlaufsperre
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -5775,6 +5655,7 @@ DayXpm="6 3 2 1"   Colormode=16
 [_point]
 Type=0x012
 SubType=0x10
+;GRMN_TYPE: //
 String1=0x02,Schlagbaum
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -5793,6 +5674,7 @@ DayXpm="8 4 2 1"   Colormode=16
 [_point]
 Type=0x012
 SubType=0x11
+;GRMN_TYPE: //
 String1=0x02,Block
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -5809,6 +5691,7 @@ DayXpm="4 3 1 1"   Colormode=16
 [_point]
 Type=0x01c
 SubType=0x01
+;GRMN_TYPE: //
 String1=0x02,Wrack
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -5826,6 +5709,7 @@ DayXpm="3 3 2 1"   Colormode=16
 [_point]
 Type=0x029
 SubType=0x00
+;GRMN_TYPE: Misc. Points of Interest/BUSINESS/Uncategorized business/Non NT, NT
 String1=0x02,Ausfahrt
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -5847,6 +5731,7 @@ DayXpm="6 6 3 1"   Colormode=16
 [_point]
 Type=0x029
 SubType=0x01
+;GRMN_TYPE: //
 String1=0x02,Rastplatz / -stätte
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -5869,6 +5754,7 @@ DayXpm="6 8 2 1"   Colormode=16
 [_point]
 Type=0x02a
 SubType=0x00
+;GRMN_TYPE: Business - Food and Drink/RESTAURANT/General restaurant of unknown genre/Non NT
 String1=0x02,Restaurant: Other
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -5886,6 +5772,7 @@ DayXpm="3 3 2 1"   Colormode=16
 [_point]
 Type=0x02a
 SubType=0x01
+;GRMN_TYPE: Business - Food and Drink/RESTAURANT_AMERICAN/American cuisine/Non NT
 String1=0x02,Restaurant: American
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -5903,6 +5790,7 @@ DayXpm="3 3 2 1"   Colormode=16
 [_point]
 Type=0x02a
 SubType=0x02
+;GRMN_TYPE: Business - Food and Drink/RESTAURANT_ASIAN/Asian cuisine/Non NT
 String1=0x02,Restaurant: Asian
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -5920,6 +5808,7 @@ DayXpm="3 3 2 1"   Colormode=16
 [_point]
 Type=0x02a
 SubType=0x03
+;GRMN_TYPE: Business - Food and Drink/RESTAURANT_BARBECUE/Barbecue cuisine/Non NT
 String1=0x02,Restaurant: Barbecue
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -5937,6 +5826,7 @@ DayXpm="3 3 2 1"   Colormode=16
 [_point]
 Type=0x02a
 SubType=0x04
+;GRMN_TYPE: Business - Food and Drink/RESTAURANT_CHINESE/Chinese cuisine/Non NT
 String1=0x02,Chinese
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -5954,6 +5844,7 @@ DayXpm="3 3 2 1"   Colormode=16
 [_point]
 Type=0x02a
 SubType=0x05
+;GRMN_TYPE: Business - Food and Drink/RESTAURANT_DELI/Deli or sandwich shop/Non NT
 String1=0x02,Restaurant: Deli/Bakery
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -5971,6 +5862,7 @@ DayXpm="3 3 2 1"   Colormode=16
 [_point]
 Type=0x02a
 SubType=0x06
+;GRMN_TYPE: Business - Food and Drink/RESTAURANT_INTRNTNL/International cuisine/Non NT
 String1=0x02,Restaurant: International
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -5988,6 +5880,7 @@ DayXpm="3 3 2 1"   Colormode=16
 [_point]
 Type=0x02a
 SubType=0x07
+;GRMN_TYPE: Business - Food and Drink/RESTAURANT_FAST_FOOD/Fast food establishment, i.e. McDonalds/Non NT
 String1=0x02,Restaurant: Fast Food
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -6005,6 +5898,7 @@ DayXpm="3 3 2 1"   Colormode=16
 [_point]
 Type=0x02a
 SubType=0x08
+;GRMN_TYPE: Business - Food and Drink/RESTAURANT_ITALIAN/Italian cuisine/Non NT
 String1=0x02,Restaurant: Italian
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -6022,6 +5916,7 @@ DayXpm="3 3 2 1"   Colormode=16
 [_point]
 Type=0x02a
 SubType=0x09
+;GRMN_TYPE: Business - Food and Drink/RESTAURANT_MEXICAN/Mexican cuisine/Non NT
 String1=0x02,Restaurant: Mexican
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -6039,6 +5934,7 @@ DayXpm="3 3 2 1"   Colormode=16
 [_point]
 Type=0x02a
 SubType=0x0a
+;GRMN_TYPE: Business - Food and Drink/RESTAURANT_PIZZA/Pizzeria/Non NT
 String1=0x02,Restaurant: Pizza
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -6056,6 +5952,7 @@ DayXpm="3 3 2 1"   Colormode=16
 [_point]
 Type=0x02a
 SubType=0x0b
+;GRMN_TYPE: Business - Food and Drink/RESTAURANT_SEAFOOD/Seafood restaurant/Non NT
 String1=0x02,Restaurant: Sea Food
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -6073,6 +5970,7 @@ DayXpm="3 3 2 1"   Colormode=16
 [_point]
 Type=0x02a
 SubType=0x0c
+;GRMN_TYPE: Business - Food and Drink/RESTAURANT_STEAK/Grill and steak brew pub restaurant/Non NT
 String1=0x02,Steak/Grill
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -6090,6 +5988,7 @@ DayXpm="3 3 2 1"   Colormode=16
 [_point]
 Type=0x02a
 SubType=0x0d
+;GRMN_TYPE: Business - Food and Drink/RESTAURANT_DONUTS/Donut shop/Non NT
 String1=0x02,Restaurant: Bagel/Donut
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -6107,6 +6006,7 @@ DayXpm="3 3 2 1"   Colormode=16
 [_point]
 Type=0x02a
 SubType=0x0e
+;GRMN_TYPE: Business - Food and Drink/RESTAURANT_CAFES/Cafe or coffee shop/Non NT
 String1=0x02,Restaurant: Cafe/Diner
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -6124,6 +6024,7 @@ DayXpm="3 3 2 1"   Colormode=16
 [_point]
 Type=0x02a
 SubType=0x0f
+;GRMN_TYPE: Business - Food and Drink/RESTAURANT_FRENCH/French cuisine/Non NT
 String1=0x02,Restaurant: French
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -6141,6 +6042,7 @@ DayXpm="3 3 2 1"   Colormode=16
 [_point]
 Type=0x02a
 SubType=0x10
+;GRMN_TYPE: Business - Food and Drink/RESTAURANT_GERMAN/German cuisine/Non NT
 String1=0x02,Restaurant: German
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -6158,6 +6060,7 @@ DayXpm="3 3 2 1"   Colormode=16
 [_point]
 Type=0x02a
 SubType=0x11
+;GRMN_TYPE: Business - Food and Drink/RESTAURANT_BRITISH/British cuisine/Non NT
 String1=0x02,Restaurant: British
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -6175,6 +6078,7 @@ DayXpm="3 3 2 1"   Colormode=16
 [_point]
 Type=0x02a
 SubType=0x12
+;GRMN_TYPE: //
 String1=0x02,Restaurant: Speciality
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -6192,6 +6096,7 @@ DayXpm="3 3 2 1"   Colormode=16
 [_point]
 Type=0x02a
 SubType=0x13
+;GRMN_TYPE: //
 String1=0x02,Restaurant: Other
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -6209,6 +6114,7 @@ DayXpm="3 3 2 1"   Colormode=16
 [_point]
 Type=0x02b
 SubType=0x01
+;GRMN_TYPE: Business - Lodging/HOTEL/Hotel/Non NT
 String1=0x02,Hotel
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -6232,6 +6138,7 @@ DayXpm="8 7 4 1"   Colormode=16
 [_point]
 Type=0x02b
 SubType=0x02
+;GRMN_TYPE: Business - Lodging/BED_AND_BREAKFAST/Bed and breakfast inn/Non NT
 String1=0x02,Gasthaus
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -6248,10 +6155,10 @@ DayXpm="6 5 2 1"   Colormode=16
 [end]
 
 
-; remapped 16.3.2016 from 2b03 to 2b05 due to categorization problems with GPSMap 64s
 [_point]
 Type=0x02b
 SubType=0x05
+;GRMN_TYPE: //
 String1=0x02,Camping
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -6275,6 +6182,7 @@ DayXpm="8 7 4 1"   Colormode=16
 [_point]
 Type=0x02b
 SubType=0x06
+;GRMN_TYPE: //
 String1=0x02,Schutzhütte
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -6297,6 +6205,7 @@ DayXpm="10 8 2 1"   Colormode=16
 [_point]
 Type=0x02c
 SubType=0x01
+;GRMN_TYPE: Business - Attractions/THEME_PARK/Amusement or theme park, i.e. Disneyland/Non NT
 String1=0x02,Freizeitpark
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -6314,6 +6223,7 @@ DayXpm="3 3 2 1"   Colormode=16
 [_point]
 Type=0x02c
 SubType=0x02
+;GRMN_TYPE: Business - Attractions/MUSEUM/Museum or historical society/Non NT
 String1=0x02,Museum
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -6335,6 +6245,7 @@ DayXpm="7 7 2 1"   Colormode=16
 [_point]
 Type=0x02c
 SubType=0x03
+;GRMN_TYPE: Business - Attractions/LIBRARY/Library/Non NT
 String1=0x02,Bibliothek
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -6352,6 +6263,7 @@ DayXpm="3 3 2 1"   Colormode=16
 [_point]
 Type=0x02c
 SubType=0x04
+;GRMN_TYPE: Business - Attractions/LANDMARK/Landmark/Non NT
 String1=0x02,Kunstzentrum
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -6369,6 +6281,7 @@ DayXpm="3 3 2 1"   Colormode=16
 [_point]
 Type=0x02c
 SubType=0x05
+;GRMN_TYPE: Business - Attractions/SCHOOL/School/Non NT
 String1=0x02,Schule / Hochschule
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -6390,6 +6303,7 @@ DayXpm="5 7 2 1"   Colormode=16
 [_point]
 Type=0x02c
 SubType=0x06
+;GRMN_TYPE: Business - Attractions/GARDEN, PARK/Garden, park/Non NT
 String1=0x02,Park / Garten
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -6407,6 +6321,7 @@ DayXpm="3 3 2 1"   Colormode=16
 [_point]
 Type=0x02c
 SubType=0x07
+;GRMN_TYPE: Business - Attractions/ZOO/Zoo/Non NT
 String1=0x02,Zoo
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -6424,6 +6339,7 @@ DayXpm="3 3 2 1"   Colormode=16
 [_point]
 Type=0x02c
 SubType=0x08
+;GRMN_TYPE: Business - Attractions/ARENA/Arena or track/Non NT
 String1=0x02,Stadion, Rennbahn
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -6441,6 +6357,7 @@ DayXpm="3 3 2 1"   Colormode=16
 [_point]
 Type=0x02c
 SubType=0x09
+;GRMN_TYPE: Business - Attractions/HALL/Auditorium or hall/Non NT
 String1=0x02,Messe
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -6458,6 +6375,7 @@ DayXpm="3 3 2 1"   Colormode=16
 [_point]
 Type=0x02c
 SubType=0x0b
+;GRMN_TYPE: Business - Attractions/PLACE_OF_WORSHIP/Religious place of worship/Non NT
 String1=0x02,Kirche
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -6483,6 +6401,7 @@ DayXpm="8 11 2 1"   Colormode=16
 [_point]
 Type=0x02c
 SubType=0x0c
+;GRMN_TYPE: //
 String1=0x02,Vulkan
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -6500,6 +6419,7 @@ DayXpm="3 3 2 1"   Colormode=16
 [_point]
 Type=0x02c
 SubType=0x0d
+;GRMN_TYPE: Business - Attractions/POW_MOSQUE/Religious place of worship/Non NT
 String1=0x02,Moschee
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -6525,6 +6445,7 @@ DayXpm="8 11 2 1"   Colormode=16
 [_point]
 Type=0x02c
 SubType=0x0e
+;GRMN_TYPE: Business - Attractions/POW_CHURCH/Religious place of worship/Non NT
 String1=0x02,Synagoge
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -6548,6 +6469,7 @@ DayXpm="9 9 2 1"   Colormode=16
 [_point]
 Type=0x02d
 SubType=0x01
+;GRMN_TYPE: Business - Entertainment/LIVE_THEATER/Live theater/Non NT
 String1=0x02,Theater
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -6565,6 +6487,7 @@ DayXpm="3 3 2 1"   Colormode=16
 [_point]
 Type=0x02d
 SubType=0x02
+;GRMN_TYPE: Business - Entertainment/BAR/Bar or club/Non NT
 String1=0x02,Kneipe, Bar, Biergarten, Nachtclub, Disco
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -6582,6 +6505,7 @@ DayXpm="3 3 2 1"   Colormode=16
 [_point]
 Type=0x02d
 SubType=0x03
+;GRMN_TYPE: Business - Entertainment/MOVIE_THEATER/Movie theater or cinema/Non NT
 String1=0x02,Kino
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -6599,6 +6523,7 @@ DayXpm="3 3 2 1"   Colormode=16
 [_point]
 Type=0x02d
 SubType=0x04
+;GRMN_TYPE: Business - Entertainment/CASINO/Casino/Non NT
 String1=0x02,Casino
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -6616,6 +6541,7 @@ DayXpm="3 3 2 1"   Colormode=16
 [_point]
 Type=0x02d
 SubType=0x05
+;GRMN_TYPE: Business - Entertainment/GOLF_COURSE/Golf course/Non NT
 String1=0x02,Golfanlage
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -6633,6 +6559,7 @@ DayXpm="3 3 2 1"   Colormode=16
 [_point]
 Type=0x02d
 SubType=0x06
+;GRMN_TYPE: Business - Entertainment/SKI_CENTER/Ski area or resort/Non NT
 String1=0x02,Skipiste, -halle
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -6650,6 +6577,7 @@ DayXpm="3 3 2 1"   Colormode=16
 [_point]
 Type=0x02d
 SubType=0x07
+;GRMN_TYPE: Business - Entertainment/BOWLING/Bowling alley/Non NT
 String1=0x02,Kegel-, Bowlingbahn
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -6667,6 +6595,7 @@ DayXpm="3 3 2 1"   Colormode=16
 [_point]
 Type=0x02d
 SubType=0x08
+;GRMN_TYPE: Business - Entertainment/ICE_SKATING/Ice skating rink/Non NT
 String1=0x01,Eissporthalle
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -6684,6 +6613,7 @@ DayXpm="3 3 2 1"   Colormode=16
 [_point]
 Type=0x02d
 SubType=0x09
+;GRMN_TYPE: Business - Entertainment/SWIMMING_POOL/Swimming pool/Non NT
 String1=0x02,Schwimmbad
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -6701,6 +6631,7 @@ DayXpm="3 3 2 1"   Colormode=16
 [_point]
 Type=0x02d
 SubType=0x0a
+;GRMN_TYPE: Business - Entertainment/FITNESS_CENTER/Fitness center or gym/Non NT
 String1=0x02,Mehrzweckhalle
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -6718,6 +6649,7 @@ DayXpm="3 3 2 1"   Colormode=16
 [_point]
 Type=0x02e
 SubType=0x01
+;GRMN_TYPE: Business - Shopping/DEPARTMENT_STORE/Department store/Non NT
 String1=0x02,Geschäft: Department Store
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -6735,6 +6667,7 @@ DayXpm="3 3 2 1"   Colormode=16
 [_point]
 Type=0x02e
 SubType=0x02
+;GRMN_TYPE: Business - Shopping/GROCERY_STORE/Grocery store/Non NT
 String1=0x02,Geschäft: Grocery
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -6752,6 +6685,7 @@ DayXpm="3 3 2 1"   Colormode=16
 [_point]
 Type=0x02e
 SubType=0x03
+;GRMN_TYPE: Business - Shopping/GENERAL_STORE/General store/Non NT
 String1=0x02,Geschäft: General Merchandiser
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -6769,6 +6703,7 @@ DayXpm="3 3 2 1"   Colormode=16
 [_point]
 Type=0x02e
 SubType=0x04
+;GRMN_TYPE: Business - Shopping/SHOPPING_CENTER/Shopping center or mall/Non NT
 String1=0x02,Geschäft: Shopping Center
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -6786,6 +6721,7 @@ DayXpm="3 3 2 1"   Colormode=16
 [_point]
 Type=0x02e
 SubType=0x05
+;GRMN_TYPE: Business - Shopping/PHARMACY/Pharmacy/Non NT
 String1=0x02,Geschäft: Pharmacy
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -6803,6 +6739,7 @@ DayXpm="3 3 2 1"   Colormode=16
 [_point]
 Type=0x02e
 SubType=0x06
+;GRMN_TYPE: Business - Shopping/CONVENIENCE_STORE/Convenience store/Non NT
 String1=0x02,Geschäft: Convinience
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -6820,6 +6757,7 @@ DayXpm="3 3 2 1"   Colormode=16
 [_point]
 Type=0x02e
 SubType=0x07
+;GRMN_TYPE: Business - Shopping/CLOTHING_RETAIL/Clothing store/Non NT
 String1=0x02,Geschäft: Apparel
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -6837,6 +6775,7 @@ DayXpm="3 3 2 1"   Colormode=16
 [_point]
 Type=0x02e
 SubType=0x08
+;GRMN_TYPE: Business - Shopping/HOME_AND_GARDEN_STORE/House and garden store/Non NT
 String1=0x02,Geschäft: House and Garden
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -6854,6 +6793,7 @@ DayXpm="3 3 2 1"   Colormode=16
 [_point]
 Type=0x02e
 SubType=0x09
+;GRMN_TYPE: Business - Shopping/HOME_FURNISHINGS_STORE/Furniture store/Non NT
 String1=0x02,Geschäft: Home Furnishing
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -6871,6 +6811,7 @@ DayXpm="3 3 2 1"   Colormode=16
 [_point]
 Type=0x02e
 SubType=0x0a
+;GRMN_TYPE: Business - Shopping/SPECIALTY_RETAIL/Specialty store/Non NT
 String1=0x02,Geschäft: Special Retail
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -6888,6 +6829,7 @@ DayXpm="3 3 2 1"   Colormode=16
 [_point]
 Type=0x02e
 SubType=0x0b
+;GRMN_TYPE: Business - Shopping/SOFTWARE_RETAIL/Computer software store/Non NT
 String1=0x02,Geschäft: Computer/Software
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -6905,6 +6847,7 @@ DayXpm="3 3 2 1"   Colormode=16
 [_point]
 Type=0x02e
 SubType=0x0c
+;GRMN_TYPE: //
 String1=0x02,Geschäft: Butcher
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -6922,6 +6865,7 @@ DayXpm="3 3 2 1"   Colormode=16
 [_point]
 Type=0x02e
 SubType=0x0d
+;GRMN_TYPE: //
 String1=0x02,Geschäft: Other
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -6939,6 +6883,7 @@ DayXpm="3 3 2 1"   Colormode=16
 [_point]
 Type=0x02f
 SubType=0x01
+;GRMN_TYPE: Business - Services/GAS_STATION/Gas, fuel station/Non NT
 String1=0x02,Tankstelle
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -6959,6 +6904,7 @@ DayXpm="5 6 2 1"   Colormode=16
 [_point]
 Type=0x02f
 SubType=0x02
+;GRMN_TYPE: Business - Services/AUTO_RENTAL/Car rental location/Non NT
 String1=0x02,Autoverleih
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -6976,6 +6922,7 @@ DayXpm="3 3 2 1"   Colormode=16
 [_point]
 Type=0x02f
 SubType=0x03
+;GRMN_TYPE: Business - Services/AUTO_REPAIR/Car repair, mechanic/Non NT
 String1=0x02,Autowerkstatt
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -6992,7 +6939,39 @@ DayXpm="3 3 2 1"   Colormode=16
 
 [_point]
 Type=0x02f
+SubType=0x04
+;GRMN_TYPE: Business - Services/AIRPORT/Airport/Non NT
+String1=0x02,Flughafen
+ExtendedLabels=N
+DayXpm="16 16 4 1"   Colormode=16
+"!	c #000000"
+"#	c #0092DA"
+"%	c #FFFFFF"
+"  	c none"
+"                "
+"       ##       "
+"      ####      "
+"      #%%#      "
+"      #%%#      "
+"      #%%#      "
+"     ##%%##     "
+"   ###%%%%###   "
+"  ##%%%%%%%%##  "
+" ##%%##%%##%%## "
+" #%####%%####%# "
+" ###  #%%#  ### "
+"      #%%#      "
+"     ##%%##     "
+"     ######     "
+"                "
+;1234567890123456
+[end]
+
+
+[_point]
+Type=0x02f
 SubType=0x05
+;GRMN_TYPE: Business - Services/POST_OFFICE/Post office/Non NT
 String1=0x02,Postamt
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -7010,6 +6989,7 @@ DayXpm="3 3 2 1"   Colormode=16
 [_point]
 Type=0x02f
 SubType=0x06
+;GRMN_TYPE: Business - Services/BANK/Bank/Non NT
 String1=0x00,Geldautomat
 String2=0x01,Geldautomat
 String3=0x02,Geldautomat
@@ -7018,9 +6998,9 @@ ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
 DayXpm="8 9 3 1"   Colormode=16
-"   c none"
 "!	c #0080C0"
 "#	c #FFFFFF"
+"  	c none"
 "    ### "
 "   #!!!#"
 "  #!!#  "
@@ -7037,6 +7017,7 @@ DayXpm="8 9 3 1"   Colormode=16
 [_point]
 Type=0x02f
 SubType=0x07
+;GRMN_TYPE: Business - Services/DEALER/Dealer of manufactured goods/Non NT
 String1=0x02,Geschäft: Car
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -7054,6 +7035,7 @@ DayXpm="3 3 2 1"   Colormode=16
 [_point]
 Type=0x02f
 SubType=0x08
+;GRMN_TYPE: Business - Services/GND_TRANSPORT/Ground transportation status, i.e. a bus station/Non NT
 String1=0x02,Haltestelle
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -7077,6 +7059,7 @@ DayXpm="8 9 2 1"   Colormode=16
 [_point]
 Type=0x02f
 SubType=0x09
+;GRMN_TYPE: Business - Services/MARINA/Marina/Non NT
 String1=0x02,Jachthafen
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -7094,12 +7077,13 @@ DayXpm="3 3 2 1"   Colormode=16
 [_point]
 Type=0x02f
 SubType=0x0b
-String1=0x02,Parken (eingeschränkt)
+;GRMN_TYPE: Business - Services/PARKING/Parking/Non NT
+String1=0x02,Parken
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
 DayXpm="6 9 2 1"   Colormode=16
-"!	c #FF656A"
+"!	c #0080C0"
 "  	c none"
 "!!!!! "
 "!!!!!!"
@@ -7117,6 +7101,7 @@ DayXpm="6 9 2 1"   Colormode=16
 [_point]
 Type=0x02f
 SubType=0x0c
+;GRMN_TYPE: Business - Services/REST_AREA_TOURIST_INFO/Rest area, Tourist information/Non NT
 String1=0x00,Restroom
 String2=0x01,Toilet
 String3=0x02,Toilette
@@ -7140,6 +7125,7 @@ DayXpm="5 5 3 1"   Colormode=16
 [_point]
 Type=0x02f
 SubType=0x0d
+;GRMN_TYPE: Business - Services/AUTO_CLUB/Automobile club/Non NT
 String1=0x02,Automobil-Club
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -7157,6 +7143,7 @@ DayXpm="3 3 2 1"   Colormode=16
 [_point]
 Type=0x02f
 SubType=0x0e
+;GRMN_TYPE: Business - Services/CAR_WASH/Car wash/Non NT
 String1=0x02,Autowaschanlage
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -7174,6 +7161,7 @@ DayXpm="3 3 2 1"   Colormode=16
 [_point]
 Type=0x02f
 SubType=0x10
+;GRMN_TYPE: Business - Services/SERVICES_PERSONAL/Personal services/Non NT
 String1=0x02,Geschäft: Hairdresser
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -7191,6 +7179,7 @@ DayXpm="3 3 2 1"   Colormode=16
 [_point]
 Type=0x02f
 SubType=0x11
+;GRMN_TYPE: Business - Services/SERVICES_BUSINESS/Business services/Non NT
 String1=0x00,Funkmast, klein
 String2=0x01,Funkmast, klein
 String3=0x02,Funkmast, klein
@@ -7221,6 +7210,7 @@ DayXpm="9 12 3 1"   Colormode=16
 [_point]
 Type=0x02f
 SubType=0x12
+;GRMN_TYPE: Business - Services/COMMUNICATION_SERVICES/Communication services/Non NT
 String1=0x02,Funkmast
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -7254,6 +7244,7 @@ DayXpm="17 18 3 1"   Colormode=16
 [_point]
 Type=0x02f
 SubType=0x13
+;GRMN_TYPE: Business - Services/REPAIR_SERVICE/Repair service/Non NT
 String1=0x02,Geschäft: Bicycle
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -7271,6 +7262,7 @@ DayXpm="3 3 2 1"   Colormode=16
 [_point]
 Type=0x02f
 SubType=0x14
+;GRMN_TYPE: Business - Services/SOCIAL_SERVICES/Social services/Non NT
 String1=0x02,Sozialeinrichtung
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -7288,6 +7280,7 @@ DayXpm="3 3 2 1"   Colormode=16
 [_point]
 Type=0x02f
 SubType=0x17
+;GRMN_TYPE: /TRANSIT_SERVICES/Transit services/Non NT
 String1=0x02,Bahnhof
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -7309,6 +7302,7 @@ DayXpm="7 7 2 1"   Colormode=16
 [_point]
 Type=0x02f
 SubType=0x1f
+;GRMN_TYPE: //
 String1=0x02,U-Bahn-Eingang
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -7331,6 +7325,7 @@ DayXpm="8 8 2 1"   Colormode=16
 [_point]
 Type=0x030
 SubType=0x01
+;GRMN_TYPE: Business - Emergency and Government/POLICE_STATION/Police station/Non NT
 String1=0x02,Polizeistation
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -7360,6 +7355,7 @@ DayXpm="14 14 3 1"   Colormode=16
 [_point]
 Type=0x030
 SubType=0x02
+;GRMN_TYPE: Business - Emergency and Government/HOSPITAL/Hospital/Non NT
 String1=0x02,Krankenhaus
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -7385,6 +7381,7 @@ DayXpm="11 11 2 1"   Colormode=16
 [_point]
 Type=0x030
 SubType=0x03
+;GRMN_TYPE: Business - Emergency and Government/CITY_HALL/City hall/Non NT
 String1=0x02,Rathaus, Botschaft
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -7402,6 +7399,7 @@ DayXpm="3 3 2 1"   Colormode=16
 [_point]
 Type=0x030
 SubType=0x04
+;GRMN_TYPE: Business - Emergency and Government/COURTHOUSE/Courthouse/Non NT
 String1=0x02,Gericht
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -7419,6 +7417,7 @@ DayXpm="3 3 2 1"   Colormode=16
 [_point]
 Type=0x030
 SubType=0x05
+;GRMN_TYPE: /COMMUNITY_CENTER/Community center/Non NT
 String1=0x02,Lokale Veranstaltungshalle
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -7436,6 +7435,7 @@ DayXpm="3 3 2 1"   Colormode=16
 [_point]
 Type=0x030
 SubType=0x07
+;GRMN_TYPE: Business - Emergency and Government/GOV_OFFICE/Government Office/Non NT
 String1=0x02,Amt, Behörde
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -7453,6 +7453,7 @@ DayXpm="3 3 2 1"   Colormode=16
 [_point]
 Type=0x030
 SubType=0x08
+;GRMN_TYPE: Business - Emergency and Government/FIRE_DEPT/Fire department/Non NT
 String1=0x02,Feuerwache
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -7470,6 +7471,7 @@ DayXpm="3 3 2 1"   Colormode=16
 [_point]
 Type=0x048
 SubType=0x03
+;GRMN_TYPE: //
 String1=0x02,Berghütte (bewirtschaftet)
 ExtendedLabels=Y
 FontStyle=Default
@@ -7500,6 +7502,7 @@ DayXpm="11 12 4 1"   Colormode=16
 [_point]
 Type=0x048
 SubType=0x04
+;GRMN_TYPE: //
 String1=0x02,Berghütte (Selbstversorger)
 ExtendedLabels=Y
 FontStyle=Default
@@ -7530,6 +7533,7 @@ DayXpm="11 12 4 1"   Colormode=16
 [_point]
 Type=0x048
 SubType=0x05
+;GRMN_TYPE: //
 String1=0x02,Basic hut
 ExtendedLabels=Y
 FontStyle=Default
@@ -7556,6 +7560,7 @@ DayXpm="10 8 4 1"   Colormode=16
 [_point]
 Type=0x048
 SubType=0x06
+;GRMN_TYPE: //
 String1=0x02,Wilderness hut
 ExtendedLabels=Y
 FontStyle=Default
@@ -7586,6 +7591,7 @@ DayXpm="11 12 4 1"   Colormode=16
 [_point]
 Type=0x048
 SubType=0x07
+;GRMN_TYPE: //
 String1=0x02,Lean-to
 ExtendedLabels=Y
 FontStyle=Default
@@ -7610,6 +7616,7 @@ DayXpm="10 8 2 1"   Colormode=16
 [_point]
 Type=0x04a
 SubType=0x00
+;GRMN_TYPE: Misc. Points of Interest/PICNIC_AREA/Picnic area/Non NT, NT
 String1=0x02,Rastplatz (Picknick)
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -7627,12 +7634,13 @@ DayXpm="3 3 2 1"   Colormode=16
 [_point]
 Type=0x04d
 SubType=0x00
-String1=0x02,Parken
+;GRMN_TYPE: //
+String1=0x02,Parken (eingeschränkt)
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
 DayXpm="6 9 2 1"   Colormode=16
-"!	c #0080C0"
+"!	c #FF656A"
 "  	c none"
 "!!!!! "
 "!!!!!!"
@@ -7650,6 +7658,7 @@ DayXpm="6 9 2 1"   Colormode=16
 [_point]
 Type=0x052
 SubType=0x00
+;GRMN_TYPE: Misc. Points of Interest/SCENIC_AREA/Scenic area/Non NT, NT
 String1=0x02,Aussichtspunkt
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -7678,6 +7687,7 @@ DayXpm="14 14 2 1"   Colormode=16
 [_point]
 Type=0x059
 SubType=0x04
+;GRMN_TYPE: //
 String1=0x02,Hubschrauberlandeplatz
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -7693,38 +7703,9 @@ DayXpm="3 3 2 1"   Colormode=16
 
 
 [_point]
-Type=0x059
-SubType=0x05
-String1=0x02,Flughafen
-ExtendedLabels=N
-DayXpm="16 16 4 1"   Colormode=16
-"!	c #000000"
-"#	c #0092DA"
-"%	c #FFFFFF"
-"  	c none"
-"                "
-"       ##       "
-"      ####      "
-"      #%%#      "
-"      #%%#      "
-"      #%%#      "
-"     ##%%##     "
-"   ###%%%%###   "
-"  ##%%%%%%%%##  "
-" ##%%##%%##%%## "
-" #%####%%####%# "
-" ###  #%%#  ### "
-"      #%%#      "
-"     ##%%##     "
-"     ######     "
-"                "
-;1234567890123456
-[end]
-
-
-[_point]
 Type=0x064
 SubType=0x03
+;GRMN_TYPE: Geographical Named Points of Interest/CEMETERY/Cemetery/Non NT, NT
 String1=0x02,Friedhof
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -7742,6 +7723,7 @@ DayXpm="3 3 2 1"   Colormode=16
 [_point]
 Type=0x064
 SubType=0x05
+;GRMN_TYPE: Geographical Named Points of Interest/CIVIL_BUILDING/Civil building/Non NT, NT
 String1=0x02,Ruhe-/Gedenkstätte
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -7759,6 +7741,7 @@ DayXpm="3 3 2 1"   Colormode=16
 [_point]
 Type=0x064
 SubType=0x0b
+;GRMN_TYPE: Geographical Named Points of Interest/MILITARY/Military point of interest/Non NT, NT
 String1=0x02,Militär
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -7776,6 +7759,7 @@ DayXpm="3 3 2 1"   Colormode=16
 [_point]
 Type=0x064
 SubType=0x0e
+;GRMN_TYPE: //
 String1=0x02,Spielplatz
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -7795,6 +7779,7 @@ DayXpm="5 5 2 1"   Colormode=16
 [_point]
 Type=0x064
 SubType=0x14
+;GRMN_TYPE: Geographical Named Points of Interest/WELL/Well/Non NT, NT
 String1=0x02,Trinkwasser
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -7817,6 +7802,7 @@ DayXpm="8 8 2 1"   Colormode=16
 [_point]
 Type=0x064
 SubType=0x17
+;GRMN_TYPE: //
 String1=0x02,Strommast
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -7835,6 +7821,7 @@ DayXpm="4 4 2 1"   Colormode=16
 [_point]
 Type=0x064
 SubType=0x19
+;GRMN_TYPE: //
 String1=0x02,Windkraftanlage
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -7877,6 +7864,7 @@ DayXpm="16 26 4 1"   Colormode=16
 [_point]
 Type=0x065
 SubType=0x00
+;GRMN_TYPE: //
 String1=0x02,Bezeichnetes Gebiet (Wasser)
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -7894,6 +7882,7 @@ DayXpm="3 3 2 1"   Colormode=16
 [_point]
 Type=0x065
 SubType=0x03
+;GRMN_TYPE: Geographical Named Points of Interest - Water Related/BAY/Bay/Non NT, NT
 String1=0x02,Bucht
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -7911,6 +7900,7 @@ DayXpm="3 3 2 1"   Colormode=16
 [_point]
 Type=0x065
 SubType=0x08
+;GRMN_TYPE: Geographical Named Points of Interest - Water Related/WATERFALL/Waterfall/Non NT, NT
 String1=0x02,Wasserfall
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -7928,6 +7918,7 @@ DayXpm="3 3 2 1"   Colormode=16
 [_point]
 Type=0x065
 SubType=0x0a
+;GRMN_TYPE: Geographical Named Points of Interest - Water Related/GLACIER/Glacier/Non NT, NT
 String1=0x02,Gletscher
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -7945,6 +7936,7 @@ DayXpm="3 3 2 1"   Colormode=16
 [_point]
 Type=0x065
 SubType=0x0b
+;GRMN_TYPE: Geographical Named Points of Interest - Water Related/HARBOR/Harbor/Non NT, NT
 String1=0x02,Hafen
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -7962,6 +7954,7 @@ DayXpm="3 3 2 1"   Colormode=16
 [_point]
 Type=0x065
 SubType=0x0d
+;GRMN_TYPE: Geographical Named Points of Interest - Water Related/LAKE/Lake/Non NT, NT
 String1=0x02,See / Teich
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -7979,6 +7972,7 @@ DayXpm="3 3 2 1"   Colormode=16
 [_point]
 Type=0x065
 SubType=0x11
+;GRMN_TYPE: Geographical Named Points of Interest - Water Related/SPRING/Spring/Non NT, NT
 String1=0x02,Quelle
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -8002,6 +7996,7 @@ DayXpm="8 9 2 1"   Colormode=16
 [_point]
 Type=0x065
 SubType=0x13
+;GRMN_TYPE: Geographical Named Points of Interest - Water Related/SWAMP/Swamp/Non NT, NT
 String1=0x02,Feuchtgebiet
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -8019,13 +8014,14 @@ DayXpm="3 3 2 1"   Colormode=16
 [_point]
 Type=0x065
 SubType=0x14
+;GRMN_TYPE: //
 String1=0x00,Information Office
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
 DayXpm="9 15 2 1"   Colormode=16
 "!	c #0080C0"
-" 	c none"
+"  	c none"
 "!!!!!!!!!"
 "!       !"
 "!       !"
@@ -8048,6 +8044,7 @@ DayXpm="9 15 2 1"   Colormode=16
 [_point]
 Type=0x066
 SubType=0x00
+;GRMN_TYPE: //
 String1=0x02,Bezeichnetes Gebiet (Land)
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -8065,6 +8062,7 @@ DayXpm="3 3 2 1"   Colormode=16
 [_point]
 Type=0x066
 SubType=0x01
+;GRMN_TYPE: Geographical Named Points of Interest - Land Related/ARCH/Arch/Non NT, NT
 String1=0x02,Höhle
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -8087,6 +8085,7 @@ DayXpm="12 6 4 1"   Colormode=16
 [_point]
 Type=0x066
 SubType=0x03
+;GRMN_TYPE: Geographical Named Points of Interest - Land Related/BASIN/Basin/Non NT, NT
 String1=0x02,Basin
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -8104,6 +8103,7 @@ DayXpm="3 3 2 1"   Colormode=16
 [_point]
 Type=0x066
 SubType=0x04
+;GRMN_TYPE: Geographical Named Points of Interest - Land Related/BEACH/Beach/Non NT, NT
 String1=0x02,Strand
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -8121,6 +8121,7 @@ DayXpm="3 3 2 1"   Colormode=16
 [_point]
 Type=0x066
 SubType=0x05
+;GRMN_TYPE: Geographical Named Points of Interest - Land Related/BENCH/Bench/Non NT, NT
 String1=0x02,Industrieanlage
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -8142,6 +8143,7 @@ DayXpm="5 7 2 1"   Colormode=16
 [_point]
 Type=0x066
 SubType=0x07
+;GRMN_TYPE: Geographical Named Points of Interest - Land Related/CLIFF/Cliff/Non NT, NT
 String1=0x02,Klippe
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -8159,6 +8161,7 @@ DayXpm="3 3 2 1"   Colormode=16
 [_point]
 Type=0x066
 SubType=0x08
+;GRMN_TYPE: Geographical Named Points of Interest - Land Related/CRATER/Crater/Non NT, NT
 String1=0x02,Trigonometrischer Punkt
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -8176,6 +8179,7 @@ DayXpm="3 3 2 1"   Colormode=16
 [_point]
 Type=0x066
 SubType=0x09
+;GRMN_TYPE: Geographical Named Points of Interest - Land Related/FLAT/Flat/Non NT, NT
 String1=0x01,Trigonometrischer Punkt
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -8195,6 +8199,7 @@ DayXpm="3 3 2 1"   Colormode=16
 [_point]
 Type=0x066
 SubType=0x0a
+;GRMN_TYPE: Geographical Named Points of Interest - Land Related/FOREST/Forest/Non NT, NT
 String1=0x02,Wald
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -8212,6 +8217,7 @@ DayXpm="3 3 2 1"   Colormode=16
 [_point]
 Type=0x066
 SubType=0x12
+;GRMN_TYPE: Geographical Named Points of Interest - Land Related/RESERVE/Reserve/Non NT, NT
 String1=0x02,Naturschutzgebiet
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -8229,6 +8235,7 @@ DayXpm="3 3 2 1"   Colormode=16
 [_point]
 Type=0x066
 SubType=0x14
+;GRMN_TYPE: Geographical Named Points of Interest - Land Related/ROCK/Rock/Non NT, NT
 String1=0x02,Findling
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -8246,6 +8253,7 @@ DayXpm="3 3 2 1"   Colormode=16
 [_point]
 Type=0x066
 SubType=0x16
+;GRMN_TYPE: Geographical Named Points of Interest - Land Related/SUMMIT/Summit, top of a hill or mountain/Non NT, NT
 String1=0x02,Gipfel
 ExtendedLabels=N
 DayXpm="8 7 2 1"   Colormode=16
@@ -8265,6 +8273,7 @@ DayXpm="8 7 2 1"   Colormode=16
 [_point]
 Type=0x066
 SubType=0x17
+;GRMN_TYPE: Geographical Named Points of Interest - Land Related/VALLEY/Valley/Non NT, NT
 String1=0x02,Pass
 ExtendedLabels=Y
 FontStyle=Default
@@ -8287,6 +8296,7 @@ DayXpm="8 6 2 1"   Colormode=16
 [_point]
 Type=0x066
 SubType=0x19
+;GRMN_TYPE: //
 String1=0x02,Baum
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -8304,6 +8314,7 @@ DayXpm="3 3 2 1"   Colormode=16
 [_point]
 Type=0x066
 SubType=0x1a
+;GRMN_TYPE: //
 String1=0x02,Information
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -8327,6 +8338,7 @@ DayXpm="3 9 2 1"   Colormode=16
 [_point]
 Type=0x066
 SubType=0x1b
+;GRMN_TYPE: //
 String1=0x02,Joch, Sattel, Scharte
 ExtendedLabels=Y
 FontStyle=Default
@@ -8348,6 +8360,7 @@ DayXpm="11 5 2 1"   Colormode=16
 [_point]
 Type=0x066
 SubType=0x1c
+;GRMN_TYPE: //
 String1=0x02,Seilbahnstation
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -8365,6 +8378,7 @@ DayXpm="4 4 1 1"   Colormode=16
 [_point]
 Type=0x066
 SubType=0x1d
+;GRMN_TYPE: //
 String1=0x02,Mil. Bunker
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -8385,6 +8399,7 @@ DayXpm="12 5 3 1"   Colormode=16
 [_point]
 Type=0x066
 SubType=0x1e
+;GRMN_TYPE: //
 String1=0x02,Ruine
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -8406,6 +8421,7 @@ DayXpm="9 7 2 1"   Colormode=16
 [_point]
 Type=0x066
 SubType=0x1f
+;GRMN_TYPE: //
 String1=0x02,Turm, Plattform
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
