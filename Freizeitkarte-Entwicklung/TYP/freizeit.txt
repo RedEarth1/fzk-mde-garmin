@@ -2442,10 +2442,10 @@ Xpm="32 2 2  1"
 "                                "
 "                                "
 ;12345678901234567890123456789012
-String1=0x00,[Erschließungsstraße]
-String2=0x01,[Erschließungsstraße]
-String3=0x02,[Erschließungsstraße]
-String4=0x04,[Service Road]
+String1=0x00,[Zufahrtsstraße]
+String2=0x01,[Zufahrtsstraße]
+String3=0x02,[Zufahrtsstraße]
+String4=0x04,[Slip Road]
 ExtendedLabels=N
 [end]
 
@@ -2460,10 +2460,10 @@ Xpm="32 2 2  1"
 "                                "
 "                                "
 ;12345678901234567890123456789012
-String1=0x00,[Spielstraße]
-String2=0x01,[Spielstraße]
-String3=0x02,[Spielstraße]
-String4=0x04,[Living Street]
+String1=0x00,[Zufahrtsstraße]
+String2=0x01,[Zufahrtsstraße]
+String3=0x02,[Zufahrtsstraße]
+String4=0x04,[Slip Road]
 ExtendedLabels=N
 [end]
 
