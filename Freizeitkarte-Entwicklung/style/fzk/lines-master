@@ -463,38 +463,6 @@ maxspeed = * & mkgmap:road-speed-class != * & maxspeedkmh() < 11            { se
 
 
 
-# ------------------------------------------------------------------
-# Auffahrten umdefinieren:
-# ------------------------------------------------------------------
-
-# Autobahnanschlussstelle:
-# ------------------------
-# Typischerweise mit den gleichen Nutzungsbeschraenkungen wie die Autobahn selber.
-highway = motorway_link {set highway = motorway}
-
-# Anschlussstelle einer autobahnaehnlichen Strasse:
-# -------------------------------------------------
-# Analog zu Autobahnanschlussstelle.
-highway = trunk_link {set highway = trunk}
-
-# Bundesstrassenanschlussstelle:
-# ------------------------------
-# Analog zu Autobahnanschlussstelle.
-highway = primary_link {set highway = primary}
-
-# Auffahrt zu einer Land- oder sehr gut ausgebauten Kreisstrasse:
-# ---------------------------------------------------------------
-highway = secondary_link {set highway = secondary}
-
-# Auffahrt zu einer Kreisstrasse:
-# -------------------------------
-highway = tertiary_link {set highway = tertiary}
-
-
-
-
-
-
 # ====================================================================================================
 # NEUES ROUTING:
 # ====================================================================================================
@@ -558,6 +526,7 @@ motorroad = yes {add foot = no; add bicycle = no}
  
 # Autobahnen: generell gesperrt fuer Fussgaenger und Radfahrer
 highway = motorway {add foot = no; add bicycle = no}
+highway = motorway_link {add foot = no; add bicycle = no}
 
 # Pfade, Radwege, Feld-/Waldwege: generell gesperrt fuer Autos
 highway = path | highway = cycleway | highway = track {add motorcar = no}
@@ -759,6 +728,18 @@ keinrouting = no & fzkrouting != yes & auto = no { set fzkrouting=yes } [0x0b ro
 # 0x01 = Bitmap 2 (transparent, nur fuer Routing, Label)
 highway = motorway & fzkrouting != yes {set name = '${ref}' | ''; set fzkrouting=yes} [0x01 road_class=4 road_speed=7 resolution 24 continue with_actions]
 
+
+## motorway exit hints (requires mkgmap --process-exits option)
+#highway=motorway_link & fzkrouting != yes & mkgmap:exit_hint=true
+#   { delete display_name;
+#     name 'Exit ${mkgmap:exit_hint_ref} ${mkgmap:exit_hint_name}' |
+#          'Exit ${mkgmap:exit_hint_ref} ${mkgmap:exit_hint_exit_to}' |
+#          'Exit ${mkgmap:exit_hint_exit_to}' |
+#          'Exit ${mkgmap:exit_hint_name}' |
+#          'Exit ${mkgmap:exit_hint_ref}' ; set fzkrouting=yes}
+#    [0x1 road_class=4 road_speed=7 resolution 24 continue with_actions]
+
+
 # --------------------------------------------
 # trunk
 # --------------------------------------------
@@ -794,18 +775,52 @@ highway = residential & fzkrouting != yes { set fzkrouting=yes }[0x06 road_class
 # --------------------------------------------
 # 0x07 = Bitmap 2 (transparent, nur fuer Routing, Label)
 highway = unclassified & fzkrouting != yes { set fzkrouting=yes }[0x07 road_class=0 road_speed=2 resolution 24 continue with_actions]
+highway = service & fzkrouting != yes { set fzkrouting=yes }[0x07 road_class=0 road_speed=2 resolution 24 continue with_actions]
+highway = living_street & fzkrouting != yes { set fzkrouting=yes }[0x07 road_class=0 road_speed=0 resolution 24 continue with_actions]
 
 # --------------------------------------------
-# service
+# low speed ramp
 # --------------------------------------------
 # 0x08 = Bitmap 2 (transparent, nur fuer Routing, Label)
-highway = service & fzkrouting != yes { set fzkrouting=yes }[0x08 road_class=0 road_speed=2 resolution 24 continue with_actions]
+highway = primary_link & fzkrouting != yes {set name = '${name}' | '${ref}' | ''; set fzkrouting=yes} [0x08 road_class=2 road_speed=5 resolution 24 continue with_actions]
+highway = secondary_link & fzkrouting != yes {set name = '${name}' | '${ref}' | ''; set fzkrouting=yes} [0x08 road_class=2 road_speed=4 resolution 24 continue with_actions]
+highway = tertiary_link & fzkrouting != yes {set name = '${name}' | '${ref}' | ''; set fzkrouting=yes} [0x08 road_class=2 road_speed=3 resolution 24 continue with_actions]
 
 # --------------------------------------------
-# living_street
+# high speed ramp
 # --------------------------------------------
 # 0x09 = Bitmap 2 (transparent, nur fuer Routing, Label)
-highway = living_street & fzkrouting != yes { set fzkrouting=yes }[0x09 road_class=0 road_speed=0 resolution 24 continue with_actions]
+highway = motorway_link & fzkrouting != yes {set name = '${ref}' | ''; set fzkrouting=yes} [0x09 road_class=4 road_speed=7 resolution 24 continue with_actions]
+highway = trunk_link & fzkrouting != yes {set name = '${name}' | '${ref}' | ''; set fzkrouting=yes} [0x09 road_class=4 road_speed=6 resolution 24 continue with_actions]
+
+
+# ------------------------------------------------------------------
+# Auffahrten umdefinieren:
+# ------------------------------------------------------------------
+
+# Autobahnanschlussstelle:
+# ------------------------
+# Typischerweise mit den gleichen Nutzungsbeschraenkungen wie die Autobahn selber.
+highway = motorway_link {set highway = motorway}
+
+# Anschlussstelle einer autobahnaehnlichen Strasse:
+# -------------------------------------------------
+# Analog zu Autobahnanschlussstelle.
+highway = trunk_link {set highway = trunk}
+
+# Bundesstrassenanschlussstelle:
+# ------------------------------
+# Analog zu Autobahnanschlussstelle.
+highway = primary_link {set highway = primary}
+
+# Auffahrt zu einer Land- oder sehr gut ausgebauten Kreisstrasse:
+# ---------------------------------------------------------------
+highway = secondary_link {set highway = secondary}
+
+# Auffahrt zu einer Kreisstrasse:
+# -------------------------------
+highway = tertiary_link {set highway = tertiary}
+
 
 # --------------------------------------------
 # Andere mit dem Auto befahrbare Strasse
