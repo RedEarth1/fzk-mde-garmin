@@ -821,6 +821,14 @@ highway = secondary_link {set highway = secondary}
 # -------------------------------
 highway = tertiary_link {set highway = tertiary}
 
+# Display highway shield for major roads if they have a ref and make them searchable by their name
+ highway=motorway  & ref=*           {name '${ref|highway-symbol:hbox}'; addlabel '${name}'}
+ highway=trunk     & ref=* & name!=$ref  {name '${ref} ${name}'; addlabel '${name}'}
+ highway=trunk     & ref=* & name=$ref {name '${ref|highway-symbol:box}' ; addlabel '${name}'}
+ highway=primary   & ref=* & name!=$ref  {name '${ref} ${name}'; addlabel '${name}'}
+ highway=primary   & ref=* & name=$ref {name '${ref|highway-symbol:oval}'; addlabel '${name}'}
+ highway=secondary & ref=* & name!=$ref  {name '${ref} ${name}'; addlabel '${name}'}
+ highway=secondary & ref=* & name=$ref {name '${ref|highway-symbol:oval}'; addlabel '${name}'}
 
 # --------------------------------------------
 # Andere mit dem Auto befahrbare Strasse
@@ -899,7 +907,7 @@ highway = trunk {set name = '${name}' | '${ref}' | ''} [0x011f14 resolution 24 c
 highway = trunk {set name = '${name}' | '${ref}' | ''} [0x012100 resolution 23-23 continue with_actions]
 highway = trunk {set name = '${ref}' | ''}             [0x010f0c resolution 22-22 continue with_actions]
 highway = trunk {set name = '${ref}' | ''}             [0x010f0d resolution 20-21 continue with_actions]
-highway = trunk {set name = '${ref}' | ''}             [0x010e0b resolution 18-19]
+highway = trunk {set name = '${ref}' | ''}             [0x010e0b resolution 16-19]
 
 
 # Bundesstrasse:
