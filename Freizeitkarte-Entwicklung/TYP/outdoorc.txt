@@ -2379,6 +2379,7 @@ String2=0x01,[Slip Road]
 String3=0x02,[Zufahrtsstraße]
 String4=0x04,[Slip Road]
 ExtendedLabels=N
+FontStyle=NoLabel (invisible)
 [end]
 
 
@@ -2397,6 +2398,7 @@ String2=0x01,[Slip Road]
 String3=0x02,[Zufahrtsstraße]
 String4=0x04,[Slip Road]
 ExtendedLabels=N
+FontStyle=NoLabel (invisible)
 [end]
 
 
@@ -3432,7 +3434,7 @@ String2=0x01,freeway
 String3=0x02,Autobahn
 String4=0x04,freeway
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=SmallFont
 CustomColor=No
 [end]
 
@@ -3451,7 +3453,7 @@ String2=0x01,Highway
 String3=0x02,Bundesstraße
 String4=0x04,Highway
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=SmallFont
 CustomColor=No
 [end]
 
@@ -3490,7 +3492,7 @@ String2=0x01,Secondary Road
 String3=0x02,Landesstraße
 String4=0x04,Secondary Road
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=SmallFont
 CustomColor=No
 [end]
 
@@ -4023,7 +4025,7 @@ String2=0x01,freeway
 String3=0x02,Autobahn
 String4=0x04,freeway
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=SmallFont
 CustomColor=No
 [end]
 
@@ -4042,7 +4044,7 @@ String2=0x01,Highway (like freeway)
 String3=0x02,Bundesstraße (wie Autobahn)
 String4=0x04,Highway (like freeway)
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=SmallFont
 CustomColor=No
 [end]
 
@@ -4061,7 +4063,7 @@ String2=0x01,Highway (like freeway)
 String3=0x02,Bundesstraße (wie Autobahn)
 String4=0x04,Highway (like freeway)
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=SmallFont
 CustomColor=No
 [end]
 
@@ -4080,7 +4082,7 @@ String2=0x01,Highway
 String3=0x02,Bundesstraße
 String4=0x04,Highway
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=SmallFont
 CustomColor=No
 [end]
 
@@ -4099,7 +4101,7 @@ String2=0x01,Highway
 String3=0x02,Bundesstraße
 String4=0x04,Highway
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=SmallFont
 CustomColor=No
 [end]
 
@@ -4118,7 +4120,7 @@ String2=0x01,secondary road
 String3=0x02,Landesstraße
 String4=0x04,secondary road
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=SmallFont
 CustomColor=No
 [end]
 
