@@ -2379,7 +2379,6 @@ String2=0x01,[Slip Road]
 String3=0x02,[Zufahrtsstraße]
 String4=0x04,[Slip Road]
 ExtendedLabels=N
-FontStyle=NoLabel (invisible)
 [end]
 
 
@@ -2398,7 +2397,6 @@ String2=0x01,[Slip Road]
 String3=0x02,[Zufahrtsstraße]
 String4=0x04,[Slip Road]
 ExtendedLabels=N
-FontStyle=NoLabel (invisible)
 [end]
 
 
@@ -3427,7 +3425,7 @@ UseOrientation=N
 LineWidth=1
 BorderWidth=1
 Xpm="0 0 2 0"
-"1 c #F89800"
+"1 c #3995FF"
 "2 c #404040"
 String1=0x00,freeway
 String2=0x01,freeway
@@ -3446,7 +3444,7 @@ UseOrientation=N
 LineWidth=1
 BorderWidth=1
 Xpm="0 0 2 0"
-"1 c #F8CC00"
+"1 c #009541"
 "2 c #404040"
 String1=0x00,Highway
 String2=0x01,Highway
@@ -3999,7 +3997,7 @@ UseOrientation=Y
 LineWidth=3
 BorderWidth=1
 Xpm="0 0 2 0"
-"1 c #F89800"
+"1 c #3995FF"
 "2 c #404040"
 String1=0x00,freeway
 String2=0x01,freeway
@@ -4018,7 +4016,7 @@ UseOrientation=Y
 LineWidth=2
 BorderWidth=1
 Xpm="0 0 2 0"
-"1 c #F89800"
+"1 c #3995FF"
 "2 c #404040"
 String1=0x00,freeway
 String2=0x01,freeway
@@ -4037,7 +4035,7 @@ UseOrientation=Y
 LineWidth=3
 BorderWidth=1
 Xpm="0 0 2 0"
-"1 c #F8CC00"
+"1 c #009541"
 "2 c #404040"
 String1=0x00,Highway (like freeway)
 String2=0x01,Highway (like freeway)
@@ -4056,7 +4054,7 @@ UseOrientation=Y
 LineWidth=2
 BorderWidth=1
 Xpm="0 0 2 0"
-"1 c #F8CC00"
+"1 c #009541"
 "2 c #404040"
 String1=0x00,Highway (like freeway)
 String2=0x01,Highway (like freeway)
@@ -4757,7 +4755,7 @@ UseOrientation=Y
 LineWidth=5
 BorderWidth=1
 Xpm="0 0 2 0"
-"1 c #F89800"
+"1 c #3995FF"
 "2 c #404040"
 String1=0x00,freeway
 String2=0x01,freeway
@@ -4776,7 +4774,7 @@ UseOrientation=Y
 LineWidth=4
 BorderWidth=1
 Xpm="0 0 2 0"
-"1 c #F8CC00"
+"1 c #009541"
 "2 c #404040"
 String1=0x00,Highway (like freeway)
 String2=0x01,Highway (like freeway)
@@ -5606,7 +5604,7 @@ UseOrientation=Y
 LineWidth=4
 BorderWidth=1
 Xpm="0 0 2 0"
-"1 c #F8CC00"
+"1 c #009541"
 "2 c #404040"
 String1=0x00,Highway
 String2=0x01,Highway
