@@ -3444,7 +3444,7 @@ UseOrientation=N
 LineWidth=1
 BorderWidth=1
 Xpm="0 0 2 0"
-"1 c #009541"
+"1 c #39CA6A"
 "2 c #404040"
 String1=0x00,Highway
 String2=0x01,Highway
@@ -4035,7 +4035,7 @@ UseOrientation=Y
 LineWidth=3
 BorderWidth=1
 Xpm="0 0 2 0"
-"1 c #009541"
+"1 c #39CA6A"
 "2 c #404040"
 String1=0x00,Highway (like freeway)
 String2=0x01,Highway (like freeway)
@@ -4054,7 +4054,7 @@ UseOrientation=Y
 LineWidth=2
 BorderWidth=1
 Xpm="0 0 2 0"
-"1 c #009541"
+"1 c #39CA6A"
 "2 c #404040"
 String1=0x00,Highway (like freeway)
 String2=0x01,Highway (like freeway)
@@ -4774,7 +4774,7 @@ UseOrientation=Y
 LineWidth=4
 BorderWidth=1
 Xpm="0 0 2 0"
-"1 c #009541"
+"1 c #39CA6A"
 "2 c #404040"
 String1=0x00,Highway (like freeway)
 String2=0x01,Highway (like freeway)
@@ -5604,7 +5604,7 @@ UseOrientation=Y
 LineWidth=4
 BorderWidth=1
 Xpm="0 0 2 0"
-"1 c #009541"
+"1 c #39CA6A"
 "2 c #404040"
 String1=0x00,Highway
 String2=0x01,Highway
