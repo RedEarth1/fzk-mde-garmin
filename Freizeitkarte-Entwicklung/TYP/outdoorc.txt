@@ -4156,7 +4156,7 @@ String2=0x01,Country Road
 String3=0x02,Kreisstraße
 String4=0x04,Country Road
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=SmallFont
 CustomColor=No
 [end]
 
