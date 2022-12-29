@@ -1246,7 +1246,7 @@ highway = reitweg & man_made = dyke            [0x011f05 resolution 24 continue]
 
 # Kein Routing
 # 0x010e03 = Bitmap 2 (nur ein Pixel gefuellt, NoLabel)
-highway = reitweg [0x010e03 resolution 24]
+highway = reitweg [0x010e03 resolution 23]
 
 
 # Treppen auf Fuss- / Wanderwegen:
