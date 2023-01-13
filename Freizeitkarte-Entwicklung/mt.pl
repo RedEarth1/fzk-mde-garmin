@@ -4594,7 +4594,9 @@ sub create_gmapsuppfile {
 
   # copy the created gmapsupp to the install directory
   my $filename = "gmapsupp.img";
-  move ( $filename, "$INSTALLDIR/$filename" ) or die ( "move() failed: $!\n" );
+  # prefix the filename with the country code so we can copy multiple country maps to the GPS device
+  my $prefixedfilename = $mapcode . "_" . $filename;
+  move ( $filename, "$INSTALLDIR/$prefixedfilename" ) or die ( "move() failed: $!\n" );
 
   # remove the unneeded temporary files again
   unlink ( "osmmap.tdb" );
