@@ -26,7 +26,7 @@ prefix2:ca = "de las ", "de los ", "de la ", "del ", "de ", "d'"
 
 # english
 prefix1:en = "East ", "North ", "South ", "West " 
-suffix:en = " Road", " Street"
+suffix:en = " Arcade", " Avenue", " Circus", " Close", " Court", " Crescent", " Croft", " Drive", " Field", " Fields", " Gardens", " Gate", " Grove", " Hill", " Lane", " Mews", " Parade", " Park", " Passage", " Place", " Rise", " Road", " Square", " Street", " Terrace", " View", " Villas", " Walk", " Way", " Wood", " Yard"
 
 # french
 prefix1:fr = "Allée", "Avenue", "Boulevard", "Chemin", "Place", "Rue", "Route"
