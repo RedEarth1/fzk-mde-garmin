@@ -437,6 +437,7 @@ my $VERSION = '1.3.18 - 2021/01/18';
 
 # Maximale Speichernutzung (Heapsize im MB) beim Splitten und Compilieren
 my $javaheapsize = 1536;
+# my $javaheapsize = 4000;
 
 # Maximale Anzahl an zu benutzenden CPU-Kernen beim Compilieren (mkgmap)
 my $max_jobs = $EMPTY;
