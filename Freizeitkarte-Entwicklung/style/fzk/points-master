@@ -1449,7 +1449,7 @@ leisure = water_park & name = * {name "${name} ($__WATERPARK__)"} [0x2D09 resolu
 
 # Ausgrabungsstätte, oberirdisch sichtbare Bodendenkmal. [point, closedway]
 # Ausgrabungsstätte, oberirdisch sichtbare Bodendenkmal. [point, closedway]
-historic = archaelogical_site & name = * {name "${name} ($__ARCHAELOGICALSITE__)"} [0x6600 resolution 24]
+historic = archaeological_site & name = * {name "${name} ($__ARCHAELOGICALSITE__)"} [0x6600 resolution 24]
 
 # Schlachtfeld. [point, closedway]
 historic = battlefield & name = * {name "${name} ($__BATTLEFIELD__)"} [0x6600 resolution 24]

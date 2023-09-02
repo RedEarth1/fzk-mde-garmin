@@ -3043,7 +3043,7 @@
 ## Ausgrabungsstätte, oberirdisch sichtbare Bodendenkmal. [point, closedway]
 #define $__ARCHAELOGICALSITE__ Bodendenkmal
 #define $__ARCHAELOGICALSITE__DE Bodendenkmal
-#define $__ARCHAELOGICALSITE__EN Archeological Site
+#define $__ARCHAELOGICALSITE__EN Archaeological Site
 #define $__ARCHAELOGICALSITE__FR Site archéologique
 #define $__ARCHAELOGICALSITE__IT Sito Archeologico
 #define $__ARCHAELOGICALSITE__NL Archeologische monument
