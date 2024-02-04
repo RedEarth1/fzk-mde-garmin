@@ -906,7 +906,7 @@ amenity = kindergarten & name = * {name "${name} ($__KINDERGARTEN__)"} [0x2c05 r
 amenity = school & name = * {name "${name} ($__SCHOOL__)"} [0x2c05 resolution 24]
 
 # Hochschule. [point, closedway]
-amenity = college & name = * {name "${name} $__COLLEGE__)"} [0x2c05 resolution 24]
+amenity = college & name = * {name "${name} ($__COLLEGE__)"} [0x2c05 resolution 24]
 
 # Bibliothek, Bücherei. [point, closedway]
 amenity = library & name = * {name "${name} ($__LIBRARY__)"} [0x2c03 resolution 24]
@@ -939,7 +939,7 @@ amenity = car_wash & name = * {name "${name} ($__CARWASH__)"} [0x2f0e resolution
 amenity = ferry_terminal {name "${name} ($__FERRYTERMINAL__)" | "$__FERRYTERMINAL__"} [0x6500 resolution 24]
 
 # Tankstelle. [point, closedway]
-amenity = fuel { name "${brand}" | "${operator}" | "${name}" | "$__FUELSTATION__" } [0x2f01 resolution 24]
+amenity = fuel { name "${brand} ($__FUELSTATION__)" | "${operator} ($__FUELSTATION__)" | "${name} ($__FUELSTATION__)" | "$__FUELSTATION__" } [0x2f01 resolution 24]
 
 # Parkplatz. [point, closedway]
 amenity = parking &  access = * & access != public & access != yes & (capacity != * | capacity >= 10) {name "${name} ($__PARKING__ $__RESTRICTED__)" | "$__PARKING__ ($__RESTRICTED__)"} [0x4D00 resolution 24]
