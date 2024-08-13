@@ -436,6 +436,9 @@
 # - deshalb erfolgt hier die Verarbeitung vor "amenity"
 # ------------------------------------------------------------
 
+#FKK
+(nudism = * & nudism != no) | (naturism = * & naturism != no) {name "${name} (FKK)"}
+
 # Schutzhütte, Berghütte. [point, closedway]
 # siehe auch "amenity = shelter"
 # tag tourism=alpine_hut always with human presence: https://wiki.openstreetmap.org/wiki/Tag:tourism%3Dalpine_hut
