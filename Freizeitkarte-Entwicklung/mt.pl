@@ -112,9 +112,11 @@ my %cpisocode = (
    );
 
 # Define the download base URLs for the Elevation Data
+# Added .view3 to the URLs to get the data for US areas
+# need to check how this is handled in the original FZK repo
 my %elevationbaseurl = (
-  'ele10' => "http://develop.freizeitkarte-osm.de/ele_10_100_200",
-  'ele20' => "http://develop.freizeitkarte-osm.de/ele_20_100_500",
+  'ele10' => "http://develop.freizeitkarte-osm.de/ele_10_100_200.view3",
+  'ele20' => "http://develop.freizeitkarte-osm.de/ele_20_100_500.view3",
 #  'ele25' => "http://develop.freizeitkarte-osm.de/ele_25_250_500",
   );
 my %hqelevationbaseurl = (
@@ -435,10 +437,10 @@ my $LANGDESC = 1;
 
 my $VERSION = '1.3.18 - 2021/01/18';
 
-# Maximale Speichernutzung (Heapsize im MB) beim Splitten und Compilieren
+# Maximale Speichernutzung (Heapsize im MB) beim Splitten und Compilieren ###################################################################################################
 # my $javaheapsize = 1536;
-# my $javaheapsize = 4000;
-my $javaheapsize = 1000;
+my $javaheapsize = 3000;
+# my $javaheapsize = 1000;
 
 # Maximale Anzahl an zu benutzenden CPU-Kernen beim Compilieren (mkgmap)
 my $max_jobs = $EMPTY;
@@ -2433,40 +2435,53 @@ sub create_cfgfile {
       . "#   the order in which the elements are processed is not defined.\n"
       . "preserve-element-order\n" );
 
-  # printf { $fh }
-  #   (   "\n"
-  #     . "# --process-exits\n"
-  #     . "#   Usual Garmin devices do not tell the name of the exit on motorways while routing with mkgmap created maps.\n"
-  #     . "#   This option splits each motorway_link, trunk_link, primary_link, secondary_link, and tertiary_link way into three parts.\n"
-  #     . "#   All parts are tagged with the original tags of the link. \n"
-  #     . "#   Additionally the middle part is tagged with the following tags:\n"
-  #     . "#       mkgmap:exit_hint=true\n"
-  #     . "#       mkgmap:exit_hint_ref=<ref tag value of the exit>\n"
-  #     . "#       mkgmap:exit_hint_name=<name tag value of the exit>\n"
-  #     . "#       mkgmap:exit_hint_exit_to=<exit_to tag value of the exit>\n"
-  #     . "#   Adding a rule checking the mkgmap:exit_hint=true makes it possible to use any routable Garmin type (except 0x08 and 0x09)\n"
-  #     . "#   for the middle part so that the Garmin device tells the name of this middle part as hint where to leave the motorway/trunk.\n"
-  #     . "#   The first part must have type 0x08 or 0x09 so that Garmin uses the hint\n" 
-  #     . "process-exits\n" );
+  printf { $fh }
+    (   "\n"
+      . "# --process-exits\n"
+      . "#   Usual Garmin devices do not tell the name of the exit on motorways while routing with mkgmap created maps.\n"
+      . "#   This option splits each motorway_link, trunk_link, primary_link, secondary_link, and tertiary_link way into three parts.\n"
+      . "#   All parts are tagged with the original tags of the link. \n"
+      . "#   Additionally the middle part is tagged with the following tags:\n"
+      . "#       mkgmap:exit_hint=true\n"
+      . "#       mkgmap:exit_hint_ref=<ref tag value of the exit>\n"
+      . "#       mkgmap:exit_hint_name=<name tag value of the exit>\n"
+      . "#       mkgmap:exit_hint_exit_to=<exit_to tag value of the exit>\n"
+      . "#   Adding a rule checking the mkgmap:exit_hint=true makes it possible to use any routable Garmin type (except 0x08 and 0x09)\n"
+      . "#   for the middle part so that the Garmin device tells the name of this middle part as hint where to leave the motorway/trunk.\n"
+      . "#   The first part must have type 0x08 or 0x09 so that Garmin uses the hint\n" 
+      . "process-exits\n" );
 
-  # printf { $fh }
-  #   (   "\n"
-  #     . "# --remove-short-arcs[=MinLength]\n"
-  #     . "#   Merge nodes to remove short arcs that can cause routing\n"
-  #     . "#   problems. If MinLength is specified (in metres), arcs shorter\n"
-  #     . "#   than that length will be removed. If a length is not\n"
-  #     . "#   specified, only zero-length arcs will be removed.\n"
-  #     . "#remove-short-arcs=3\n" );
+  printf { $fh }
+    (   "\n"
+      . "# --process-destination\n"
+      . "#   blah blah blah\n" 
+      . "process-destination\n" );
 
-  # printf { $fh }
-  #   (   "\n"
-  #     . "# --adjust-turn-headings[=BITMASK]\n"
-  #     . "#   Where possible, ensure that turns off to side roads change\n"
-  #     . "#   heading sufficiently so that the GPS believes that a turn is\n"
-  #     . "#   required rather than a fork. This also avoids spurious\n"
-  #     . "#   instructions to \"keep right/left\" when the road doesn\'t\n"
-  #     . "#   actually fork.\n"
-  #     . "adjust-turn-headings\n" );
+  printf { $fh }
+    (   "\n"
+      . "# --hide-gmapsupp-on-pc\n"
+      . "#   Set a bit in the gmapsupp.img that tells PC software that the file is already installed on the PC\n"
+      . "#   and therefore there is no need to read it from the device.\n" 
+      . "hide-gmapsupp-on-pc\n" );
+
+  printf { $fh }
+    (   "\n"
+      . "# --remove-short-arcs[=MinLength]\n"
+      . "#   Merge nodes to remove short arcs that can cause routing\n"
+      . "#   problems. If MinLength is specified (in metres), arcs shorter\n"
+      . "#   than that length will be removed. If a length is not\n"
+      . "#   specified, only zero-length arcs will be removed.\n"
+      . "#remove-short-arcs=3\n" );
+
+  printf { $fh }
+    (   "\n"
+      . "# --adjust-turn-headings[=BITMASK]\n"
+      . "#   Where possible, ensure that turns off to side roads change\n"
+      . "#   heading sufficiently so that the GPS believes that a turn is\n"
+      . "#   required rather than a fork. This also avoids spurious\n"
+      . "#   instructions to \"keep right/left\" when the road doesn\'t\n"
+      . "#   actually fork.\n"
+      . "adjust-turn-headings\n" );
 
   printf { $fh }
     (   "\n"

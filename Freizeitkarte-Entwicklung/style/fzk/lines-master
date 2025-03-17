@@ -822,6 +822,19 @@ highway = secondary_link {set highway = secondary}
 highway = tertiary_link {set highway = tertiary}
 
 # Display highway shield for major roads if they have a ref and make them searchable by their name
+
+#US labels based on ref
+#If the ref begins with I then it's an interstate so remove the I and add a blue shield marker (prefixes the label with I)
+mkgmap:country=USA & highway = * & ref~'[I].*'    {name '${ref|subst:"I=>"|highway-symbol:interstate}' ; addlabel '${name}'}
+#If the ref begins with US then it's a federal highway so remove the US and add a white shield marker (prefixes the label with Us)
+mkgmap:country=USA & highway = * & ref~'[U][S].*' {name '${ref|subst:"US=>"|highway-symbol:shield}'    ; addlabel '${name}'}
+#If the ref contains numbers then it's a state highway so remove all but the numbers and add a round marker (prefixes the label with hwy)
+mkgmap:country=USA & highway = * & ref~'.*[0-9].*'{name '${ref|subst:"[^0-9;]~>"|highway-symbol:round}' ; addlabel '${name}'}
+#If the ref doesn't contain any numbers then it's a special case so leave as is and add an oval marker (no prefix)
+mkgmap:country=USA & highway = * & ref=* {name '${ref|highway-symbol:oval}' ; addlabel '${name}'}
+
+
+
 highway = motorway  & ref=*           {name '${ref|highway-symbol:hbox}'; addlabel '${name}'}
 # highway = trunk     & ref=* & name!=$ref  {name '${ref} ${name}'; addlabel '${name}'}
 # highway = trunk     & ref=* & name=$ref {name '${ref|highway-symbol:box}' ; addlabel '${name}'}
