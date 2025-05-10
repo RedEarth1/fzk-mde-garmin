@@ -2225,7 +2225,7 @@ sub create_cfgfile {
 	  . "#   tricks to handle this problem. It allows the use of special characters in the road \n"
 	  . "#   labels to mark the beginning and end of the important part. In combination with option \n"
 	  . "#   split-name-index only the words in the important part are indexed.\n"
-      . "#road-name-config=$BASEPATH/searchoptions/roadNameConfig.txt\n" );
+      . "road-name-config=$BASEPATH/searchoptions/roadNameConfig.txt\n" );
 
   printf { $fh }
     (   "\n"
