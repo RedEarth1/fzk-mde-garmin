@@ -2454,8 +2454,22 @@ sub create_cfgfile {
   printf { $fh }
     (   "\n"
       . "# --process-destination\n"
-      . "#   blah blah blah\n" 
+      . "#   Splits all motorway_link, trunk_link, primary_link, secondary_link, and tertiary_link ways tagged with destination into two \n"
+      . "#   or three parts where the second part is additionally tagged with mkgmap:dest_hint=*. The code checks for the tags destination,\n"
+      . "#   destination:lanes, destination:street and some variants with :forward/:backward like destination:forward or destination:lanes:backward.\n"
+      . "#   If a value for destination is found, the special tag mkgmap:dest_hint is set to it and the way is split. \n"
+      . "#   This happens before the style rules are processed. This allows to use any routable Garmin type (except 0x08 and 0x09) \n"
+      . "#   for that part so that the Garmin device tells the name of this part as hint which destination to follow.\n"
+      . "#   See also --process-exits.\n" 
       . "process-destination\n" );
+
+  printf { $fh }
+    (   "\n"
+      . "# --order-by-decreasing-area\n"
+      . "#   Puts area/polygons into the map in decreasing size order, so that smaller features are rendered over larger\n"
+      . "#   ones (assuming the draw order is equal). The tag mkgmap:drawLevel can be used to override the natural area\n"
+      . "#   of a polygon, so forcing changes to the rendering order.\n" 
+      . "order-by-decreasing-area\n" );
 
   printf { $fh }
     (   "\n"
