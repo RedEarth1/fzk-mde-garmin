@@ -752,10 +752,23 @@ power = generator & name = * {name "${name} ($__POWERGENERATOR__)"} [0x6600 reso
 # ------------------------------------------------------------
 
 # Flughafen. [point, closedway]
-aeroway = aerodrome | aeroway = airport {name "${name} ($__AIRPORT__)" | "$__AIRPORT__"} [0x2F04 resolution 24]
+aeroway = airport & iata = * & icao = * {name "${name} (${iata}/${icao})"} [0x2F04 resolution 24]
+aeroway = airport & iata = * {name "${name} (${iata})"} [0x2F04 resolution 24]
+aeroway = airport & icao = * {name "${name} (${icao})"} [0x2F04 resolution 24]
+aeroway = airport {name "${name}" | "$__AIRPORT__"} [0x2F04 resolution 24]
+
+
+aeroway = aerodrome & iata = * & icao = * {name "${name} (${iata}/${icao})"} [0x2F04 resolution 24]
+aeroway = aerodrome & iata = * {name "${name} (${iata})"} [0x2F04 resolution 24]
+aeroway = aerodrome & icao = * {name "${name} (${icao})"} [0x2F04 resolution 24]
+aeroway = aerodrome {name "${name}" | "$__AIRPORT__"} [0x2F04 resolution 24]
+
 
 # Hubschrauberlandeplatz. [point, closedway]
-aeroway = helipad {name "${name} ($__HELIPAD__)" | "$__HELIPAD__"} [0x5904 resolution 24]
+aeroway = helipad & iata = * & icao = * {name "${name} (${iata}/${icao})"} [0x5904 resolution 24]
+aeroway = helipad & iata = * {name "${name} (${iata})"} [0x5904 resolution 24]
+aeroway = helipad & icao = * {name "${name} (${icao})"} [0x5904 resolution 24]
+aeroway = helipad {name "${name}" | "$__HELIPAD__"} [0x5904 resolution 24]
 
 # Gate: Dient der Markierung der einzelnen Gates auf einem Vorfeld. [point]
 # aeroway = gate (wird derzeit nicht unterstützt)
