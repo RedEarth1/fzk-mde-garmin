@@ -1986,7 +1986,7 @@
 ## Autohaus. [point, closedway]
 #define $__CARSHOP__ Autohaus
 #define $__CARSHOP__DE Autohaus
-#define $__CARSHOP__EN Garage
+#define $__CARSHOP__EN Car Dealership
 #define $__CARSHOP__FR Concession automobile
 #define $__CARSHOP__IT Concessionaria autoveicoli
 #define $__CARSHOP__NL Autodealer
@@ -3741,7 +3741,7 @@
 ## Job-Center / Arbeitsvermittlung. [point, closedway]
 #define $__EMPLOYMENTAGENCY__ Arbeitsvermittlung
 #define $__EMPLOYMENTAGENCY__DE Arbeitsvermittlung
-#define $__EMPLOYMENTAGENCY__EN employment agency
+#define $__EMPLOYMENTAGENCY__EN Employment Agency
 #define $__EMPLOYMENTAGENCY__FR Agence pour l'emploi
 #define $__EMPLOYMENTAGENCY__IT Agenzia per l'impiego
 #define $__EMPLOYMENTAGENCY__NL Arbeidsbureau
