@@ -678,14 +678,14 @@ auto = no  & fahrrad = no  & fuss = no {set keinrouting = yes; set access = no; 
 # Kreisverkehr / roundabout:
 # --------------------------------------------
 # 0x0c = Bitmap 2 (transparent, nur fuer Routing, Label)
-junction = roundabout & highway = motorway     {set fzkrouting=yes} [0x0c road_class=4 road_speed=5 resolution 24 continue with_actions]
-junction = roundabout & highway = trunk        {set fzkrouting=yes} [0x0c road_class=4 road_speed=2 resolution 24 continue with_actions]
-junction = roundabout & highway = primary      {set fzkrouting=yes} [0x0c road_class=2 road_speed=2 resolution 24 continue with_actions]
-junction = roundabout & highway = secondary    {set fzkrouting=yes} [0x0c road_class=2 road_speed=2 resolution 24 continue with_actions]
-junction = roundabout & highway = tertiary     {set fzkrouting=yes} [0x0c road_class=2 road_speed=1 resolution 24 continue with_actions]
-junction = roundabout & highway = service      {set fzkrouting=yes} [0x0c road_class=0 road_speed=1 resolution 24 continue with_actions]
-junction = roundabout & highway = unclassified {set fzkrouting=yes} [0x0c road_class=0 road_speed=1 resolution 24 continue with_actions]
-junction = roundabout & highway = residential  {set fzkrouting=yes} [0x0c road_class=0 road_speed=1 resolution 24 continue with_actions]
+(junction = roundabout | junction = circular) & highway = motorway     {set fzkrouting=yes} [0x0c road_class=4 road_speed=5 resolution 24 continue with_actions]
+(junction = roundabout | junction = circular) & highway = trunk        {set fzkrouting=yes} [0x0c road_class=4 road_speed=2 resolution 24 continue with_actions]
+(junction = roundabout | junction = circular) & highway = primary      {set fzkrouting=yes} [0x0c road_class=2 road_speed=2 resolution 24 continue with_actions]
+(junction = roundabout | junction = circular) & highway = secondary    {set fzkrouting=yes} [0x0c road_class=2 road_speed=2 resolution 24 continue with_actions]
+(junction = roundabout | junction = circular) & highway = tertiary     {set fzkrouting=yes} [0x0c road_class=2 road_speed=1 resolution 24 continue with_actions]
+(junction = roundabout | junction = circular) & highway = service      {set fzkrouting=yes} [0x0c road_class=0 road_speed=1 resolution 24 continue with_actions]
+(junction = roundabout | junction = circular) & highway = unclassified {set fzkrouting=yes} [0x0c road_class=0 road_speed=1 resolution 24 continue with_actions]
+(junction = roundabout | junction = circular) & highway = residential  {set fzkrouting=yes} [0x0c road_class=0 road_speed=1 resolution 24 continue with_actions]
 
 # --------------------------------------------
 # Access=no Wege, fuer Indexsuche, (Nur Wege mit Namen machen Sinn)
@@ -729,15 +729,34 @@ keinrouting = no & fzkrouting != yes & auto = no { set fzkrouting=yes } [0x0b ro
 highway = motorway & fzkrouting != yes {set name = '${ref}' | ''; set fzkrouting=yes} [0x01 road_class=4 road_speed=7 resolution 24 continue with_actions]
 
 
-## motorway exit hints (requires mkgmap --process-exits option)
-#highway=motorway_link & fzkrouting != yes & mkgmap:exit_hint=true
-#   { delete display_name;
-#     name 'Exit ${mkgmap:exit_hint_ref} ${mkgmap:exit_hint_name}' |
-#          'Exit ${mkgmap:exit_hint_ref} ${mkgmap:exit_hint_exit_to}' |
-#          'Exit ${mkgmap:exit_hint_exit_to}' |
-#          'Exit ${mkgmap:exit_hint_name}' |
-#          'Exit ${mkgmap:exit_hint_ref}' ; set fzkrouting=yes}
-#    [0x1 road_class=4 road_speed=7 resolution 24 continue with_actions]
+## MOTORWAY DESTINATION AND EXIT HINTS NEED MORE WORK
+## appears to be a bit buggy, creates extra labels but doesn't always use them in route instructions
+## info here - https://community.openstreetmap.org/t/tag-motorway-link-name/63156/27
+
+
+# # motorway destination hints (requires mkgmap --process-destination option)
+# fzkrouting != yes & mkgmap:dest_hint=*
+#   { set dest_hint = '${destination:ref|subst: =>} ${mkgmap:dest_hint|subst:;=> |subst:/=> }' |
+#         '${ref|subst: =>} ${mkgmap:dest_hint|subst:;=> |subst:/=> }' | 
+#         '${mkgmap:dest_hint|subst:;=> |subst:/=> }'}
+
+
+
+
+
+# # motorway exit hints (requires mkgmap --process-exits option)
+# fzkrouting != yes & mkgmap:exit_hint=true
+#   { set exit_hint = 'Exit_A ${mkgmap:exit_hint_ref} ${mkgmap:exit_hint_name}' |
+#          'Exit_B ${mkgmap:exit_hint_ref} ${mkgmap:exit_hint_exit_to}' |
+#          'Exit_C ${mkgmap:exit_hint_exit_to}' |
+#          'Exit_D ${mkgmap:exit_hint_name}' |
+#          'Exit_E ${mkgmap:exit_hint_ref}'}
+
+# # use destination hint and/or exit hint to build name              
+# (mkgmap:exit_hint=true | mkgmap:dest_hint=*)
+#   {	delete display_name;
+#   name 'EHDH_${exit_hint} ${dest_hint}' | 	'DH_${dest_hint}' | 		'EH_${exit_hint}' }
+
 
 
 # --------------------------------------------
