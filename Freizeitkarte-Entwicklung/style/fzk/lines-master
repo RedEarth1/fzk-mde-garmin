@@ -311,6 +311,16 @@
 # -------------------------------------------------
 include "indexsearch";
 
+# -------------------------------------------------
+# Delete problem ways:
+# -------------------------------------------------
+#bridge over M27 between junctions 1 and 2
+highway = * & osmid() = 3343291 { delete highway }
+
+# -------------------------------------------------
+# Delete short driveways:
+# -------------------------------------------------
+highway = service & service = driveway & length() < 50 & access != * & lanes != * & maxspeed != * & name != * { delete highway }
 
 # ------------------------------------------------------------------
 # Klettersteige die als Pfade getaggt sind umdefinieren:
@@ -692,11 +702,6 @@ auto = no  & fahrrad = no  & fuss = no {set keinrouting = yes; set access = no; 
 # --------------------------------------------
 # 0x12 = Bitmap 2 (transparent, nur fuer Routing, NoLabel)
 keinrouting = yes & fzkrouting != yes & name = * { set fzkrouting=yes } [0x12 road_class=0 road_speed=0 resolution 24 continue with_actions]
-
-# --------------------------------------------
-# Short Driveways
-# --------------------------------------------
-highway = service & service = driveway & length() < 50 & access != * & lanes != * & maxspeed != * & name != * [0x12 road_class=0 road_speed=0 resolution 24]
 
 # --------------------------------------------
 # Treppen/Stufen

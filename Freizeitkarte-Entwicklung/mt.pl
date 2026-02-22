@@ -1882,7 +1882,8 @@ sub split_mapdata {
    . $mapid . "0001"
    . " --max-nodes=800000"
    . " --output=xml"
-   . " --output-dir=$WORKDIR $filename_ergebnisdaten";
+   . " --output-dir=$WORKDIR $filename_ergebnisdaten"
+   . " --write-kml=$WORKDIR/areas.kml";
   process_command ( $command );
 
   # Check Return Value
